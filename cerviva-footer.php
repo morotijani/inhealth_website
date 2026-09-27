@@ -7,10 +7,10 @@
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="https://claude.ai/artifact/URmaXB3TQR1JQSVBcSNgT9">About us</a>
+        <a href="cerviva-about.php">About us</a>
         <a href="https://claude.ai/artifact/URmaXB3TQR1JQSVBcSNgT9#programs">Our work</a>
-        <a href="https://claude.ai/artifact/4Xi7bRperkhzGjXcbidUCT">Get screened</a>
-        <a href="https://claude.ai/artifact/6xBgx3SxNThCk8PKNywUnn">Get involved</a>
+        <a href="cerviva-screening.php">Get screened</a>
+        <a href="cerviva-contact.php">Get involved</a>
       </div>
       <div>
         <h4>Connect</h4>

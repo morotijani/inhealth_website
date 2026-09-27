@@ -7,9 +7,9 @@
       </div>
       <div>
         <h4>Company</h4>
-        <a href="https://claude.ai/artifact/8aKCSvqkPrd1a5rjd16UXR">Services</a>
-        <a href="https://claude.ai/artifact/9efdJYMqdoj74EUsPJsTs6">About us</a>
-        <a href="https://claude.ai/artifact/HA8sCGHFd6ZnkuJucY54cm" target="_blank" rel="noopener">Cerviva Foundation</a>
+        <a href="inhealth-services.php">Services</a>
+        <a href="inhealth-about.php">About us</a>
+        <a href="cerviva-homepage.php" target="_blank" rel="noopener">Cerviva Foundation</a>
       </div>
       <div>
         <h4>Get in touch</h4>
