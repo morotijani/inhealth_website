@@ -29,7 +29,7 @@ include 'header.php';
     <section class="section" style="padding-top:0;padding-bottom:0;">
         <div class="wrap">
             <figure style="margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);">
-                <img src="media/img-1.jpg" alt="Frontline health workers are at the centre of every Cerviva programme."
+                <img src="media/img-3.jpg" alt="Frontline health workers are at the centre of every Cerviva programme."
                     style="width:100%;height:480px;object-fit:cover;display:block;">
                 <figcaption
                     style="padding:10px 14px;font-size:0.78rem;color:var(--ink-soft);border-top:1px solid var(--line);">

@@ -1,5 +1,5 @@
 ﻿<?php
-$page_title = 'Get Screened â€” Cerviva Ghana Foundation';
+$page_title = 'Get Screened, Cerviva Ghana Foundation';
 $page_description = 'Directory of verified cervical cancer screening centres across Ghana, screening age guidelines, and clinic referral support.';
 $current_page = 'screening';
 include 'header.php';
@@ -31,7 +31,7 @@ include 'header.php';
     <section class="section" style="padding-top:0;padding-bottom:0;">
         <div class="wrap">
             <figure style="margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);">
-                <img src="media/img-2.jpg" alt="Accurate screening starts with reliable lab and diagnostic work.
+                <img src="media/cervical_cancer_screening.png" alt="Accurate screening starts with reliable lab and diagnostic work.
 " style="width:100%;height:420px;object-fit:cover;display:block;">
             </figure>
         </div>
@@ -43,7 +43,7 @@ include 'header.php';
             <div class="facility-grid" id="facilityGrid"></div>
             <p class="facility-note">List compiled with the Medical Women Association of Ghana (MWAG), Lexta Ghana
                 Limited and
-                Jhpiego. This list is being expanded as more facilities are confirmed â€” if your region isn't listed
+                Jhpiego. This list is being expanded as more facilities are confirmed, if your region isn't listed
                 yet, get
                 in touch and we'll help you find the nearest option.</p>
         </div>
@@ -54,7 +54,7 @@ include 'header.php';
             <div class="section-head">
                 <div class="kicker">What to expect</div>
                 <h2>Screening is quick and routine</h2>
-                <p>[Placeholder â€” client to confirm exact procedure details, appointment process, and what a screening
+                <p>[Placeholder, client to confirm exact procedure details, appointment process, and what a screening
                     visit
                     involves, so we can replace this with accurate step-by-step guidance.]</p>
             </div>
@@ -62,7 +62,7 @@ include 'header.php';
                 <div class="program">
                     <div class="num">01</div>
                     <h3>Book ahead where needed</h3>
-                    <p>Some facilities listed require an appointment â€” check before you go, or contact us and we'll
+                    <p>Some facilities listed require an appointment, check before you go, or contact us and we'll
                         help
                         confirm.</p>
                 </div>
@@ -86,19 +86,19 @@ include 'header.php';
 <script>
     const data = {
         "Greater Accra": [
-            "Korle Bu Teaching Hospital â€” Reproductive Health Unit",
+            "Korle Bu Teaching Hospital, Reproductive Health Unit",
             "Ridge Hospital, Accra",
             "University Hospital, Legon",
-            "La General Hospital â€” Reproductive Health Unit",
+            "La General Hospital, Reproductive Health Unit",
             "Airport Women's Hospital, Airport Residential Area",
-            "Marie Stopes Ghana â€” Kokomlemle",
+            "Marie Stopes Ghana, Kokomlemle",
             "Bediako CHPS Compound",
-            "Medicas Hospital â€” Madina (by appointment)",
-            "Divine Grace Clinic & Maternity Home â€” Kaneshie",
-            "Ga East Hospital â€” Kwabenya",
+            "Medicas Hospital, Madina (by appointment)",
+            "Divine Grace Clinic & Maternity Home, Kaneshie",
+            "Ga East Hospital, Kwabenya",
             "Shai Osu Doku Hospital, Dodowa",
             "37 Military Hospital",
-            "Greater Accra Regional Hospital â€” Ridge",
+            "Greater Accra Regional Hospital, Ridge",
             "Zenu Polyclinic",
             "Oyibi Health Center",
             "Katamanso Health Center",
@@ -108,7 +108,7 @@ include 'header.php';
             "Komfo Anokye Teaching Hospital, Kumasi",
             "Kumasi South Hospital",
             "Bomso Hospital, Kumasi",
-            "Marie Stopes â€” Santasi",
+            "Marie Stopes, Santasi",
             "Peaceland Clinic, South Suntreso",
             "Signer Care, Asokwa",
             "Peace and Love Hospital, Oduom",
