@@ -75,7 +75,7 @@ include 'header.php';
       <h2>Supplying Ghana's cervical cancer screening drives</h2>
       <p>Our test kit supply work directly supports the Cerviva Ghana Foundation's community screening programmes â€” putting the right kits in the right hands, where they're needed most.</p>
     </div>
-    <a class="btn" href="cerviva-homepage.php" target="_blank" rel="noopener">Visit the Foundation</a>
+    <a class="btn" href="cerviva-index.php" target="_blank" rel="noopener">Visit the Foundation</a>
   </div>
 </section>
 

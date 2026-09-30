@@ -94,7 +94,7 @@ include 'header.php';
         <div style="font-size:0.95rem;color:var(--teal-ink);margin-bottom:10px;">Instagram <a href="https://instagram.com/cervicarefoundationghana" target="_blank" rel="noopener" style="color:var(--teal-deep);">@cervicarefoundationghana</a></div>
         <div style="font-size:0.95rem;color:var(--teal-ink);">Location Accra, Ghana</div>
       </div>
-      <p style="color:#5A756E;font-size:0.9rem;line-height:1.6;">Looking for our parent organization? <a href="inhealth-homepage.php" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit Inhealth Medical Solutions â†’</a></p>
+      <p style="color:#5A756E;font-size:0.9rem;line-height:1.6;">Looking for our parent organization? <a href="inhealth-index.php" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit Inhealth Medical Solutions â†’</a></p>
     </div>
   </div>
 </section>

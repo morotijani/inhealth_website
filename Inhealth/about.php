@@ -108,7 +108,7 @@ include 'header.php';
       <h2>Our foundation: Cerviva Ghana Foundation</h2>
       <p>Alongside our consultancy work, we support the Cerviva Ghana Foundation â€” raising awareness, running community screening drives, and educating women and girls on cervical cancer prevention across Ghana.</p>
     </div>
-    <a class="btn" href="cerviva-homepage.php" target="_blank" rel="noopener">Visit the Foundation</a>
+    <a class="btn" href="cerviva-index.php" target="_blank" rel="noopener">Visit the Foundation</a>
   </div>
 </section>
 </main>

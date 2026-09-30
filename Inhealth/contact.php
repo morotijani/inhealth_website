@@ -67,7 +67,7 @@ include 'header.php';
       <div style="border:1px solid var(--line);height:220px;background:var(--paper-2);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);font-size:0.9rem;">
         Map â€” to be added once office address is confirmed
       </div>
-      <p style="margin-top:16px;color:var(--ink-soft);font-size:0.9rem;line-height:1.6;">Looking for the Cerviva Ghana Foundation instead? <a href="cerviva-homepage.php" style="color:var(--red-deep);" target="_blank" rel="noopener">Visit their site â†’</a></p>
+      <p style="margin-top:16px;color:var(--ink-soft);font-size:0.9rem;line-height:1.6;">Looking for the Cerviva Ghana Foundation instead? <a href="cerviva-index.php" style="color:var(--red-deep);" target="_blank" rel="noopener">Visit their site â†’</a></p>
     </div>
   </div>
 </section>

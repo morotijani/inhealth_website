@@ -9,7 +9,7 @@
         <h4>Company</h4>
         <a href="services.php">Services</a>
         <a href="about.php">About us</a>
-        <a href="cerviva-homepage.php" target="_blank" rel="noopener">Cerviva Foundation</a>
+        <a href="cerviva-index.php" target="_blank" rel="noopener">Cerviva Foundation</a>
       </div>
       <div>
         <h4>Get in touch</h4>

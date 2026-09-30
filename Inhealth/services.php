@@ -119,7 +119,7 @@ include 'header.php';
       <h2>Looking for our foundation instead?</h2>
       <p>The Cerviva Ghana Foundation handles our cervical cancer awareness and screening work â€” a separate arm from our consultancy services above.</p>
     </div>
-    <a class="btn" href="cerviva-homepage.php" target="_blank" rel="noopener">Visit the Foundation</a>
+    <a class="btn" href="cerviva-index.php" target="_blank" rel="noopener">Visit the Foundation</a>
   </div>
 </section>
 </main>

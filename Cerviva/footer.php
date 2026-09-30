@@ -16,7 +16,7 @@
         <h4>Connect</h4>
         <a href="https://instagram.com/cervicarefoundationghana" target="_blank" rel="noopener">@cervicarefoundationghana</a>
         <a href="mailto:info@cerviva.org">info@cerviva.org</a>
-        <a href="inhealth-homepage.php" target="_blank" rel="noopener">Part of Inhealth Medical Solutions</a>
+        <a href="inhealth-index.php" target="_blank" rel="noopener">Part of Inhealth Medical Solutions</a>
       </div>
     </div>
     <div class="foot-bottom">
