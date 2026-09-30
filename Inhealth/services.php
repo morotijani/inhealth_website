@@ -1,5 +1,5 @@
-﻿<?php
-$page_title = 'Services â€” Inhealth Medical Solutions';
+<?php
+$page_title = 'Services — Inhealth Medical Solutions';
 $page_description = 'Advisory, equipment, diagnostics and training matched to Ghana\'s health facilities, corporate institutions and development programmes.';
 $current_page = 'services';
 include 'header.php';
@@ -9,7 +9,7 @@ include 'header.php';
     <section class="hero" style="padding:56px 0 48px;">
         <div class="wrap">
             <div class="hero-eyebrow">What we do</div>
-            <h1 style="max-width:20ch;">Advisory, equipment, diagnostics and training â€” matched to where you are.</h1>
+            <h1 style="max-width:20ch;">Advisory, equipment, diagnostics and training — matched to where you are.</h1>
             <p class="lead" style="max-width:60ch;">Four service lines, built to work together or stand alone. Start
                 with
                 whichever one solves the problem in front of you.</p>
@@ -37,7 +37,7 @@ include 'header.php';
                     <h2 style="font-size:1.6rem;color:var(--ink);">Medical &amp; Public Health Consultancy</h2>
                     <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">Advisory support
                         for the
-                        people responsible for how care gets delivered â€” from a single facility to a national
+                        people responsible for how care gets delivered — from a single facility to a national
                         programme.</p>
                     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px;max-width:760px;">
                         <div class="letter-block" style="padding:18px 20px;">
@@ -60,7 +60,7 @@ include 'header.php';
                             <div style="font-size:0.95rem;color:var(--ink);">Research &amp; M&amp;E</div>
                         </div>
                     </div>
-                    <a href="service-consultancy.php" class="go" style="display:inline-block;margin-top:20px;">Full
+                    <a href="service-consultancy" class="go" style="display:inline-block;margin-top:20px;">Full
                         details
                         &rarr;</a>
                 </div>
@@ -86,12 +86,12 @@ include 'header.php';
                 </div>
                 <div>
                     <h2 style="font-size:1.6rem;color:var(--ink);">Medical Equipment</h2>
-                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder â€”
+                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder —
                         send us
                         your actual equipment categories/brands and we'll list real product lines here instead of
                         general
                         categories.] We advise on and supply clinical and diagnostic equipment for hospitals and clinics
-                        â€”
+                        —
                         sourcing, procurement advisory, and guidance on what fits your facility's scale and budget.</p>
                     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;">
                         <span class="chip-like"
@@ -107,7 +107,7 @@ include 'header.php';
                             style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Procurement
                             advisory</span>
                     </div>
-                    <a href="service-equipment.php" class="go" style="display:inline-block;margin-top:20px;">Full
+                    <a href="service-equipment" class="go" style="display:inline-block;margin-top:20px;">Full
                         details
                         &rarr;</a>
                 </div>
@@ -133,7 +133,7 @@ include 'header.php';
                 </div>
                 <div>
                     <h2 style="font-size:1.6rem;color:var(--ink);">Test Kits</h2>
-                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder â€”
+                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder —
                         confirm
                         which specific test kits you carry.] We supply diagnostic and screening test kits to hospitals,
                         clinics and
@@ -149,7 +149,7 @@ include 'header.php';
                             style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Laboratory
                             supplies</span>
                     </div>
-                    <a href="service-testkits.php" class="go" style="display:inline-block;margin-top:20px;">Full details
+                    <a href="service-testkits" class="go" style="display:inline-block;margin-top:20px;">Full details
                         &rarr;</a>
                 </div>
             </div>
@@ -174,7 +174,7 @@ include 'header.php';
                     <h2 style="font-size:1.6rem;color:var(--ink);">Medical Training</h2>
                     <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">Structured
                         training for
-                        hospital and clinic teams â€” delivered on-site or in cohorts, built around the clinical skills
+                        hospital and clinic teams — delivered on-site or in cohorts, built around the clinical skills
                         and
                         protocols your staff actually need.</p>
                     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px;max-width:760px;">
@@ -191,7 +191,7 @@ include 'header.php';
                             <div style="font-size:0.95rem;color:var(--ink);">On-site &amp; cohort delivery</div>
                         </div>
                     </div>
-                    <a href="service-training.php" class="go" style="display:inline-block;margin-top:20px;">Full details
+                    <a href="service-training" class="go" style="display:inline-block;margin-top:20px;">Full details
                         &rarr;</a>
                 </div>
             </div>
@@ -204,11 +204,11 @@ include 'header.php';
                 alt="Cerviva Ghana Foundation">
             <div>
                 <h2>Looking for our foundation instead?</h2>
-                <p>The Cerviva Ghana Foundation handles our cervical cancer awareness and screening work â€” a separate
+                <p>The Cerviva Ghana Foundation handles our cervical cancer awareness and screening work — a separate
                     arm from
                     our consultancy services above.</p>
             </div>
-            <a class="btn" href="cerviva-index.php" target="_blank" rel="noopener">Visit the Foundation</a>
+            <a class="btn" href="cerviva-index" target="_blank" rel="noopener">Visit the Foundation</a>
         </div>
     </section>
 </main>

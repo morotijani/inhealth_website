@@ -1,4 +1,4 @@
-﻿<footer id="contact">
+<footer id="contact">
     <div class="wrap">
         <div class="foot-grid">
             <div>
@@ -8,8 +8,8 @@
             </div>
             <div>
                 <h4>Company</h4>
-                <a href="services.php">Services</a>
-                <a href="about.php">About us</a>
+                <a href="services">Services</a>
+                <a href="about">About us</a>
                 <a href="https://cervivaghanafoundation.inhealthmedicalsolutions.com" target="_blank"
                     rel="noopener">Cerviva Foundation</a>
             </div>

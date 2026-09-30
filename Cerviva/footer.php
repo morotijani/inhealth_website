@@ -1,4 +1,4 @@
-﻿<footer id="footer-contact">
+<footer id="footer-contact">
     <div class="wrap">
         <div class="foot-grid">
             <div>
@@ -8,10 +8,10 @@
             </div>
             <div>
                 <h4>Explore</h4>
-                <a href="about.php">About us</a>
+                <a href="about">About us</a>
                 <a href="about.php#programs">Our work</a>
-                <a href="screening.php">Get screened</a>
-                <a href="contact.php">Get involved</a>
+                <a href="screening">Get screened</a>
+                <a href="contact">Get involved</a>
             </div>
             <div>
                 <h4>Connect</h4>

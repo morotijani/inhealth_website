@@ -1,5 +1,5 @@
-﻿<?php
-$page_title = 'About Us â€” Cerviva Ghana Foundation';
+<?php
+$page_title = 'About Us — Cerviva Ghana Foundation';
 $page_description = 'Learn about Cerviva Ghana Foundation, our history, clinical partners, leadership, and public health impact across Ghana.';
 $current_page = 'about';
 $page['author_image'] = "media/caryn-agyeman-prempeh.jpg";
@@ -59,23 +59,23 @@ include 'header.php';
                     ?>
                 </div>
                 <div>
-                    <blockquote>"Cervical cancer is preventable â€” but only if women know where to go, and can actually
+                    <blockquote>"Cervical cancer is preventable — but only if women know where to go, and can actually
                         get
                         there."</blockquote>
                     <div class="name">Dr. Caryn Agyeman Prempeh</div>
-                    <div class="role">Founder &amp; Lead, Cerviva Ghana Foundation Â· Public Health Physician &amp;
+                    <div class="role">Founder &amp; Lead, Cerviva Ghana Foundation · Public Health Physician &amp;
                         Healthcare
-                        Leader Â· also known as Ohemaa Afia Kobi Prempeh</div>
+                        Leader · also known as Ohemaa Afia Kobi Prempeh</div>
                     <p style="margin-top:16px;color:#3C5A54;font-size:0.96rem;line-height:1.65;max-width:56ch;">
                         Dr. Prempeh founded Cerviva Ghana Foundation to close the gap between what's medically possible
                         and what
-                        women actually experience â€” bringing screening, education and early detection to communities
+                        women actually experience — bringing screening, education and early detection to communities
                         across the
                         country, in line with Sustainable Development Goal 3's call for universal access to reproductive
                         and sexual
                         healthcare.
                     </p>
-                    <p style="margin-top:10px;color:#5A756E;font-size:0.86rem;">[Placeholder â€” send fuller bio
+                    <p style="margin-top:10px;color:#5A756E;font-size:0.86rem;">[Placeholder — send fuller bio
                         details,
                         credentials and a photo and we'll build this out properly.]</p>
                 </div>
@@ -88,7 +88,7 @@ include 'header.php';
             <div class="section-head">
                 <div class="kicker">Our Work</div>
                 <h2>How we reach women and communities</h2>
-                <p>Awareness only works when it meets people where they are â€” in their communities, workplaces and
+                <p>Awareness only works when it meets people where they are — in their communities, workplaces and
                     public
                     forums.</p>
             </div>
@@ -140,7 +140,7 @@ include 'header.php';
                     </p>
                 </div>
             </div>
-            <p style="margin-top:22px;color:#5A756E;font-size:0.88rem;">[Placeholder â€” photos and recaps from past
+            <p style="margin-top:22px;color:#5A756E;font-size:0.88rem;">[Placeholder — photos and recaps from past
                 community
                 engagements, corporate tours and seminars will make this section far more convincing once you share
                 them.]</p>
@@ -155,7 +155,7 @@ include 'header.php';
                     <p>We run community engagements, corporate education tours and public seminars across Ghana.</p>
                 </div>
                 <div class="involve-ctas">
-                    <a class="btn light" href="contact.php">Get in touch</a>
+                    <a class="btn light" href="contact">Get in touch</a>
                 </div>
             </div>
         </div>

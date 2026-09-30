@@ -1,5 +1,5 @@
-﻿<?php
-$page_title = 'Inhealth Medical Solutions â€” Healthcare & Medical Consultancy';
+<?php
+$page_title = 'Inhealth Medical Solutions — Healthcare & Medical Consultancy';
 $page_description = 'Inhealth Medical Solutions provides healthcare and medical consultancy, advisory, equipment, test kits and training in Ghana.';
 $current_page = 'home';
 include 'header.php';
@@ -15,8 +15,8 @@ include 'header.php';
           technical, procurement, training and public-health support to the people and institutions that keep Ghana's
           health system running.</p>
         <div class="hero-ctas">
-          <a class="btn" href="contact.php">Talk to our team</a>
-          <a class="btn outline" href="services.php">See what we do</a>
+          <a class="btn" href="contact">Talk to our team</a>
+          <a class="btn outline" href="services">See what we do</a>
         </div>
         <div
           style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:28px;max-width:340px;">
@@ -91,7 +91,7 @@ include 'header.php';
     <div class="wrap">
       <div class="section-head">
         <h2>Four ways we work with you</h2>
-        <p>From strategy to the supplies and training that put it into practice â€” advisory, equipment, diagnostics and
+        <p>From strategy to the supplies and training that put it into practice — advisory, equipment, diagnostics and
           capacity-building under one roof.</p>
       </div>
       <div class="services-list">
@@ -110,7 +110,7 @@ include 'header.php';
           <h3>Medical &amp; Public Health Consultancy</h3>
           <p>Healthcare project development, clinical and public-health advisory, facility setup and management,
             occupational health, quality improvement, research and programme monitoring &amp; evaluation.</p>
-          <a class="go" href="contact.php">Enquire â†’</a>
+          <a class="go" href="contact">Enquire →</a>
         </div>
         <div class="service-row">
           <div class="mark"
@@ -126,7 +126,7 @@ include 'header.php';
           <h3>Medical Equipment</h3>
           <p>Sourcing and procurement advisory for clinical and diagnostic equipment, matched to your facility's scale,
             budget and regulatory requirements.</p>
-          <a class="go" href="contact.php">Enquire â†’</a>
+          <a class="go" href="contact">Enquire →</a>
         </div>
         <div class="service-row">
           <div class="mark"
@@ -143,7 +143,7 @@ include 'header.php';
           <h3>Test Kits</h3>
           <p>Supply of diagnostic and screening test kits for hospitals, clinics and laboratories, with guidance on
             selection and appropriate use.</p>
-          <a class="go" href="contact.php">Enquire â†’</a>
+          <a class="go" href="contact">Enquire →</a>
         </div>
         <div class="service-row">
           <div class="mark"
@@ -155,9 +155,9 @@ include 'header.php';
             </svg>
           </div>
           <h3>Medical Training</h3>
-          <p>Structured training programmes for hospital and clinic staff â€” clinical skills, screening protocols and
+          <p>Structured training programmes for hospital and clinic staff — clinical skills, screening protocols and
             quality-of-care workshops, delivered on-site or in cohorts.</p>
-          <a class="go" href="contact.php">Enquire â†’</a>
+          <a class="go" href="contact">Enquire →</a>
         </div>
       </div>
     </div>
@@ -185,10 +185,10 @@ include 'header.php';
         alt="Cerviva Ghana Foundation">
       <div>
         <h2>Our foundation: Cerviva Ghana Foundation</h2>
-        <p>Alongside our consultancy work, we support the Cerviva Ghana Foundation â€” raising awareness, running
+        <p>Alongside our consultancy work, we support the Cerviva Ghana Foundation — raising awareness, running
           community screening drives, and educating women and girls on cervical cancer prevention across Ghana.</p>
       </div>
-      <a class="btn" href="cerviva-index.php" target="_blank" rel="noopener">Visit the Foundation</a>
+      <a class="btn" href="cerviva-index" target="_blank" rel="noopener">Visit the Foundation</a>
     </div>
   </section>
 

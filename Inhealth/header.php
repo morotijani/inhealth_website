@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,11 +10,11 @@
         content="Inhealth Medical Solutions, Ghana Healthcare, Medical Consultancy, Medical Equipment Ghana, Diagnostic Test Kits, Clinical Training, Health Facility Setup, Occupational Health">
     <meta name="author" content="Inhealth Medical Solutions">
     <meta property="og:title"
-        content="<?= htmlspecialchars($page_title ?? 'Inhealth Medical Solutions â€” Healthcare & Medical Consultancy') ?>">
+        content="<?= htmlspecialchars($page_title ?? 'Inhealth Medical Solutions — Healthcare & Medical Consultancy') ?>">
     <meta property="og:description"
         content="<?= htmlspecialchars($page_description ?? 'Healthcare and medical consultancy providing advisory, equipment, test kits and training to Ghana\'s health sector.') ?>">
     <meta property="og:type" content="website">
-    <title><?= htmlspecialchars($page_title ?? 'Inhealth Medical Solutions â€” Healthcare & Medical Consultancy') ?>
+    <title><?= htmlspecialchars($page_title ?? 'Inhealth Medical Solutions — Healthcare & Medical Consultancy') ?>
     </title>
     <link rel="icon" href="media/logo.jpeg?v=1" type="image/jpeg">
     <link rel="shortcut icon" href="media/logo.jpeg?v=1" type="image/jpeg">
@@ -33,7 +33,7 @@
 
     <header class="site">
         <div class="wrap site-header-inner">
-            <a href="index.php" class="brand" style="text-decoration:none;"
+            <a href="index" class="brand" style="text-decoration:none;"
                 aria-label="Inhealth Medical Solutions Homepage">
                 <img src="media/logo.jpeg" alt="Inhealth Medical Solutions Logo">
                 <div class="brand-text">
@@ -42,13 +42,13 @@
                 </div>
             </a>
             <nav class="primary" aria-label="Primary Navigation">
-                <a href="services.php" <?= (isset($current_page) && $current_page === 'services') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>Services</a>
-                <a href="about.php" <?= (isset($current_page) && $current_page === 'about') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>About</a>
+                <a href="services" <?= (isset($current_page) && $current_page === 'services') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>Services</a>
+                <a href="about" <?= (isset($current_page) && $current_page === 'about') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>About</a>
                 <a href="https://cervivaghanafoundation.inhealthmedicalsolutions.com" target="_blank"
                     rel="noopener">Cerviva Foundation</a>
-                <a href="contact.php" <?= (isset($current_page) && $current_page === 'contact') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>Contact</a>
+                <a href="contact" <?= (isset($current_page) && $current_page === 'contact') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>Contact</a>
             </nav>
-            <a class="btn" href="contact.php">Request a consultation</a>
+            <a class="btn" href="contact">Request a consultation</a>
             <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
             </button>
@@ -60,15 +60,15 @@
         <div class="mobile-nav-inner">
             <button class="mobile-nav-close" aria-label="Close navigation" id="mobileNavClose">&times;</button>
             <div class="mobile-nav-links">
-                <a href="index.php" class="<?= ($current_page == 'home') ? 'active' : '' ?>">Home</a>
-                <a href="about.php" class="<?= ($current_page == 'about') ? 'active' : '' ?>">About Us</a>
-                <a href="services.php" class="<?= ($current_page == 'services') ? 'active' : '' ?>">Services</a>
+                <a href="index" class="<?= ($current_page == 'home') ? 'active' : '' ?>">Home</a>
+                <a href="about" class="<?= ($current_page == 'about') ? 'active' : '' ?>">About Us</a>
+                <a href="services" class="<?= ($current_page == 'services') ? 'active' : '' ?>">Services</a>
                 <a href="https://cervivaghanafoundation.inhealthmedicalsolutions.com" target="_blank"
                     rel="noopener">Cerviva Foundation</a>
-                <a href="contact.php" class="<?= ($current_page == 'contact') ? 'active' : '' ?>">Contact</a>
+                <a href="contact" class="<?= ($current_page == 'contact') ? 'active' : '' ?>">Contact</a>
             </div>
             <div class="mobile-nav-cta">
-                <a class="btn" href="contact.php">Request a consultation</a>
+                <a class="btn" href="contact">Request a consultation</a>
             </div>
         </div>
     </div>

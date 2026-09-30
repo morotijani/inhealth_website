@@ -1,5 +1,5 @@
-﻿<?php
-$page_title = 'Cerviva Ghana Foundation â€” Cervical Cancer Awareness & Prevention';
+<?php
+$page_title = 'Cerviva Ghana Foundation — Cervical Cancer Awareness & Prevention';
 $page_description = 'Dedicated to reducing cervical cancer incidence in Ghana through nationwide community education, screening and clinical referral.';
 $current_page = 'home';
 include 'header.php';
@@ -14,8 +14,8 @@ include 'header.php';
                 <p class="lead">We educate communities, advocate for accessible screening, and connect women across
                     Ghana to the preventive care that stops cervical cancer before it starts.</p>
                 <div class="hero-ctas">
-                    <a class="btn" href="screening.php">Find a screening centre near you</a>
-                    <a class="btn outline" href="about.php">Learn about our work</a>
+                    <a class="btn" href="screening">Find a screening centre near you</a>
+                    <a class="btn outline" href="about">Learn about our work</a>
                 </div>
             </div>
             <div class="hero-art">
@@ -65,14 +65,14 @@ include 'header.php';
                     <img src="media/caryn-agyeman-prempeh.jpg" alt="">
                 </div>
                 <div>
-                    <blockquote>"Cervical cancer is preventable â€” but only if women know where to go, and can actually
+                    <blockquote>"Cervical cancer is preventable — but only if women know where to go, and can actually
                         get there."</blockquote>
                     <div class="name">Dr. Caryn Agyeman Prempeh</div>
-                    <div class="role">Founder &amp; Lead, Cerviva Ghana Foundation Â· Public Health Physician &amp;
-                        Healthcare Leader Â· also known as Ohemaa Afia Kobi Prempeh</div>
+                    <div class="role">Founder &amp; Lead, Cerviva Ghana Foundation · Public Health Physician &amp;
+                        Healthcare Leader · also known as Ohemaa Afia Kobi Prempeh</div>
                     <p style="margin-top:16px;color:#3C5A54;font-size:0.96rem;line-height:1.65;max-width:56ch;">
                         Dr. Prempeh founded Cerviva Ghana Foundation to close the gap between what's medically possible
-                        and what women actually experience â€” bringing screening, education and early detection to
+                        and what women actually experience — bringing screening, education and early detection to
                         communities across the country, in line with Sustainable Development Goal 3's call for universal
                         access to reproductive and sexual healthcare.
                     </p>
@@ -86,7 +86,7 @@ include 'header.php';
             <div class="section-head">
                 <div class="kicker">Our Work</div>
                 <h2>How we reach women and communities</h2>
-                <p>Awareness only works when it meets people where they are â€” in their communities, workplaces and
+                <p>Awareness only works when it meets people where they are — in their communities, workplaces and
                     public forums.</p>
             </div>
             <div class="programs">
@@ -146,7 +146,7 @@ include 'header.php';
                 <p>Facilities across Ghana where you can access cervical cancer screening, compiled with the Medical
                     Women Association of Ghana (MWAG), Lexta Ghana Limited and Jhpiego.</p>
             </div>
-            <div class="who-screened">ðŸ©º <span><b>Who should be screened?</b> Women aged 25â€“65 years.</span></div>
+            <div class="who-screened">🩺 <span><b>Who should be screened?</b> Women aged 25–65 years.</span></div>
             <div class="filters" id="filters"></div>
             <div class="facility-grid" id="facilityGrid"></div>
             <p class="facility-note">This list is being expanded as more facilities are confirmed. If your region isn't
@@ -163,8 +163,8 @@ include 'header.php';
                         Cerviva to speak in your community.</p>
                 </div>
                 <div class="involve-ctas">
-                    <a class="btn light" href="contact.php">Partner with us</a>
-                    <a class="btn outline" style="border-color:#BFE0D8;color:#fff;" href="contact.php">Volunteer</a>
+                    <a class="btn light" href="contact">Partner with us</a>
+                    <a class="btn outline" style="border-color:#BFE0D8;color:#fff;" href="contact">Volunteer</a>
                 </div>
             </div>
         </div>
@@ -174,19 +174,19 @@ include 'header.php';
 <script>
     const data = {
         "Greater Accra": [
-            "Korle Bu Teaching Hospital â€” Reproductive Health Unit",
+            "Korle Bu Teaching Hospital — Reproductive Health Unit",
             "Ridge Hospital, Accra",
             "University Hospital, Legon",
-            "La General Hospital â€” Reproductive Health Unit",
+            "La General Hospital — Reproductive Health Unit",
             "Airport Women's Hospital, Airport Residential Area",
-            "Marie Stopes Ghana â€” Kokomlemle",
+            "Marie Stopes Ghana — Kokomlemle",
             "Bediako CHPS Compound",
-            "Medicas Hospital â€” Madina (by appointment)",
-            "Divine Grace Clinic & Maternity Home â€” Kaneshie",
-            "Ga East Hospital â€” Kwabenya",
+            "Medicas Hospital — Madina (by appointment)",
+            "Divine Grace Clinic & Maternity Home — Kaneshie",
+            "Ga East Hospital — Kwabenya",
             "Shai Osu Doku Hospital, Dodowa",
             "37 Military Hospital",
-            "Greater Accra Regional Hospital â€” Ridge",
+            "Greater Accra Regional Hospital — Ridge",
             "Zenu Polyclinic",
             "Oyibi Health Center",
             "Katamanso Health Center",
@@ -196,7 +196,7 @@ include 'header.php';
             "Komfo Anokye Teaching Hospital, Kumasi",
             "Kumasi South Hospital",
             "Bomso Hospital, Kumasi",
-            "Marie Stopes â€” Santasi",
+            "Marie Stopes — Santasi",
             "Peaceland Clinic, South Suntreso",
             "Signer Care, Asokwa",
             "Peace and Love Hospital, Oduom",

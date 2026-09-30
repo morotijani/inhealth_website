@@ -1,5 +1,5 @@
-﻿<?php
-$page_title = 'Medical Equipment Procurement â€” Inhealth Medical Solutions';
+<?php
+$page_title = 'Medical Equipment Procurement — Inhealth Medical Solutions';
 $page_description = 'Procurement and sourcing advisory for clinical, diagnostic and screening equipment tailored to hospital and clinic scale in Ghana.';
 $current_page = 'services';
 include 'header.php';
@@ -8,8 +8,8 @@ include 'header.php';
 <main id="main-content">
     <section class="hero" style="padding:48px 0 44px;">
         <div class="wrap">
-            <a href="services.php"
-                style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">â†
+            <a href="services"
+                style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">←
                 All services</a>
             <div
                 style="width:76px;height:76px;border-radius:16px;background:var(--green-pale);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:22px;">
@@ -25,7 +25,7 @@ include 'header.php';
             <h1 style="max-width:20ch;">Medical Equipment</h1>
             <p class="lead" style="max-width:60ch;">Sourcing and procurement advisory for clinical and diagnostic
                 equipment, matched to your facility's scale, budget and regulatory requirements.</p>
-            <div class="hero-ctas"><a class="btn" href="contact.php">Discuss your equipment needs</a></div>
+            <div class="hero-ctas"><a class="btn" href="contact">Discuss your equipment needs</a></div>
         </div>
     </section>
     <section class="section" style="padding-top:0;padding-bottom:0;">
@@ -142,17 +142,17 @@ include 'header.php';
                 <h2>Other services</h2>
             </div>
             <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
-                <a href="service-consultancy.php"
+                <a href="service-consultancy"
                     style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);">
                     <div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 01</div>
                     <h3 style="font-size:1.05rem;">Medical &amp; Public Health Consultancy</h3>
                 </a>
-                <a href="service-testkits.php"
+                <a href="service-testkits"
                     style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);">
                     <div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 03</div>
                     <h3 style="font-size:1.05rem;">Test Kits</h3>
                 </a>
-                <a href="service-training.php"
+                <a href="service-training"
                     style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);">
                     <div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 04</div>
                     <h3 style="font-size:1.05rem;">Medical Training</h3>

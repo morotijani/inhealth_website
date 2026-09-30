@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,11 +10,11 @@
         content="Cerviva Ghana Foundation, Cervical Cancer Screening Ghana, HPV Awareness, Women's Health Ghana, Cancer Prevention">
     <meta name="author" content="Cerviva Ghana Foundation">
     <meta property="og:title"
-        content="<?= htmlspecialchars($page_title ?? 'Cerviva Ghana Foundation â€” Cervical Cancer Awareness & Prevention') ?>">
+        content="<?= htmlspecialchars($page_title ?? 'Cerviva Ghana Foundation — Cervical Cancer Awareness & Prevention') ?>">
     <meta property="og:description"
         content="<?= htmlspecialchars($page_description ?? 'Raising awareness, educating communities, and promoting cervical cancer prevention among women and girls in Ghana.') ?>">
     <meta property="og:type" content="website">
-    <title><?= htmlspecialchars($page_title ?? 'Cerviva Ghana Foundation â€” Cervical Cancer Awareness & Prevention') ?>
+    <title><?= htmlspecialchars($page_title ?? 'Cerviva Ghana Foundation — Cervical Cancer Awareness & Prevention') ?>
     </title>
     <link rel="icon" href="media/logo.png" type="image/png">
     <link rel="shortcut icon" href="media/logo.png" type="image/png">
@@ -30,7 +30,7 @@
 
     <header class="site">
         <div class="wrap site-header-inner">
-            <a href="index.php" class="brand" style="text-decoration:none;"
+            <a href="index" class="brand" style="text-decoration:none;"
                 aria-label="Cerviva Ghana Foundation Homepage">
                 <img src="media/logo.png" alt="Cerviva Ghana Foundation Logo">
                 <div class="brand-text">
@@ -39,12 +39,12 @@
                 </div>
             </a>
             <nav class="primary" aria-label="Primary Navigation">
-                <a href="about.php" <?= (isset($current_page) && $current_page === 'about') ? ' style="color:var(--teal);"' : '' ?>>About</a>
+                <a href="about" <?= (isset($current_page) && $current_page === 'about') ? ' style="color:var(--teal);"' : '' ?>>About</a>
                 <a href="about.php#programs">Our Work</a>
-                <a href="screening.php" <?= (isset($current_page) && $current_page === 'screening') ? ' style="color:var(--teal);"' : '' ?>>Get Screened</a>
-                <a href="contact.php" <?= (isset($current_page) && $current_page === 'contact') ? ' style="color:var(--teal);"' : '' ?>>Get Involved</a>
+                <a href="screening" <?= (isset($current_page) && $current_page === 'screening') ? ' style="color:var(--teal);"' : '' ?>>Get Screened</a>
+                <a href="contact" <?= (isset($current_page) && $current_page === 'contact') ? ' style="color:var(--teal);"' : '' ?>>Get Involved</a>
             </nav>
-            <a class="btn" href="screening.php">Find a screening centre</a>
+            <a class="btn" href="screening">Find a screening centre</a>
             <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
             </button>
@@ -56,14 +56,14 @@
         <div class="mobile-nav-inner">
             <button class="mobile-nav-close" aria-label="Close navigation" id="mobileNavClose">&times;</button>
             <div class="mobile-nav-links">
-                <a href="index.php" class="<?= ($current_page == 'home') ? 'active' : '' ?>">Home</a>
-                <a href="about.php" class="<?= ($current_page == 'about') ? 'active' : '' ?>">About Us</a>
-                <a href="what-we-do.php" class="<?= ($current_page == 'what-we-do') ? 'active' : '' ?>">What We Do</a>
-                <a href="get-involved.php" class="<?= ($current_page == 'get-involved') ? 'active' : '' ?>">Get
+                <a href="index" class="<?= ($current_page == 'home') ? 'active' : '' ?>">Home</a>
+                <a href="about" class="<?= ($current_page == 'about') ? 'active' : '' ?>">About Us</a>
+                <a href="what-we-do" class="<?= ($current_page == 'what-we-do') ? 'active' : '' ?>">What We Do</a>
+                <a href="get-involved" class="<?= ($current_page == 'get-involved') ? 'active' : '' ?>">Get
                     Involved</a>
             </div>
             <div class="mobile-nav-cta">
-                <a class="btn" href="screening.php">Find a screening centre</a>
+                <a class="btn" href="screening">Find a screening centre</a>
             </div>
         </div>
     </div>

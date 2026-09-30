@@ -1,5 +1,5 @@
-﻿<?php
-$page_title = 'Contact & Get Involved â€” Cerviva Ghana Foundation';
+<?php
+$page_title = 'Contact & Get Involved — Cerviva Ghana Foundation';
 $page_description = 'Partner with Cerviva Ghana Foundation, sponsor a screening drive, volunteer, or reach our team in Accra.';
 $current_page = 'contact';
 include 'header.php';
@@ -19,7 +19,7 @@ include 'header.php';
             <div class="ribbon-tag"><span class="dot"></span> Get involved</div>
             <h1 style="max-width:20ch;">Help us reach more women, faster.</h1>
             <p class="lead" style="max-width:56ch;">Whether you want to partner with us, sponsor a screening drive, or
-                bring Cerviva to speak at your organization â€” start here.</p>
+                bring Cerviva to speak at your organization — start here.</p>
         </div>
     </section>
 
@@ -112,7 +112,7 @@ include 'header.php';
                 </div>
                 <button type="submit" class="btn" style="width:100%;justify-content:center;">Send message</button>
                 <p class="form-status" style="display:none;margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">
-                    Thanks â€” this form isn't wired to an inbox yet. Once you confirm a contact email or form service,
+                    Thanks — this form isn't wired to an inbox yet. Once you confirm a contact email or form service,
                     we'll connect it so submissions actually arrive.</p>
             </form>
 
@@ -129,8 +129,8 @@ include 'header.php';
                     <div style="font-size:0.95rem;color:var(--teal-ink);">Location Accra, Ghana</div>
                 </div>
                 <p style="color:#5A756E;font-size:0.9rem;line-height:1.6;">Looking for our parent organization? <a
-                        href="inhealth-index.php" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit
-                        Inhealth Medical Solutions â†’</a></p>
+                        href="inhealth-index" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit
+                        Inhealth Medical Solutions →</a></p>
             </div>
         </div>
     </section>
