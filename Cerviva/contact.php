@@ -19,7 +19,7 @@ include 'header.php';
             <div class="ribbon-tag"><span class="dot"></span> Get involved</div>
             <h1 style="max-width:20ch;">Help us reach more women, faster.</h1>
             <p class="lead" style="max-width:56ch;">Whether you want to partner with us, sponsor a screening drive, or
-                bring Cerviva to speak at your organization — start here.</p>
+                bring Cerviva to speak at your organization; start here.</p>
         </div>
     </section>
 
@@ -71,10 +71,10 @@ include 'header.php';
     </section>
 
     <section class="section" style="padding-top:56px;">
-        <div class="wrap" style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:start;">
+        <div class="wrap contact-layout">
 
-            <form action="send_mail.php" method="POST" style="border:1px solid var(--line);background:#fff;padding:32px;border-radius:14px;">
-                <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+            <form action="send_mail.php" method="POST" class="contact-form-box">
+                <div class="form-row">
                     <div>
                         <label style="display:block;font-size:0.85rem;color:#3C5A54;margin-bottom:6px;">Full
                             name</label>
@@ -111,9 +111,11 @@ include 'header.php';
                 </div>
                 <button type="submit" class="btn" style="width:100%;justify-content:center;">Send message</button>
                 <?php if (isset($_GET['status']) && $_GET['status'] == 'success'): ?>
-                    <p style="margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">Thank you! Your message has been sent successfully.</p>
+                    <p style="margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">Thank you! Your message has been
+                        sent successfully.</p>
                 <?php elseif (isset($_GET['status']) && $_GET['status'] == 'error'): ?>
-                    <p style="margin:14px 0 0;font-size:0.88rem;color:var(--red-deep);">Sorry, there was an error sending your message. Please try again later.</p>
+                    <p style="margin:14px 0 0;font-size:0.88rem;color:var(--red-deep);">Sorry, there was an error sending
+                        your message. Please try again later.</p>
                 <?php endif; ?>
             </form>
 
@@ -123,14 +125,17 @@ include 'header.php';
                     <div style="font-size:0.82rem;font-weight:700;color:var(--teal);margin-bottom:14px;">Reach us
                         directly</div>
                     <div style="font-size:0.95rem;color:var(--teal-ink);margin-bottom:10px;">Email <a
-                            href="mailto:info@cervivaghanafoundation.inhealthmedicalsolutions.com" style="color:var(--teal-deep);">info@cervivaghanafoundation.inhealthmedicalsolutions.com</a></div>
+                            href="mailto:cervivaghanafoundation@inhealthmedicalsolutions.com"
+                            style="color:var(--teal-deep);">cervivaghanafoundation@inhealthmedicalsolutions.com</a>
+                    </div>
                     <div style="font-size:0.95rem;color:var(--teal-ink);margin-bottom:10px;">Instagram <a
                             href="https://instagram.com/cervicarefoundationghana" target="_blank" rel="noopener"
                             style="color:var(--teal-deep);">@cervicarefoundationghana</a></div>
                     <div style="font-size:0.95rem;color:var(--teal-ink);">Location Accra, Ghana</div>
                 </div>
                 <p style="color:#5A756E;font-size:0.9rem;line-height:1.6;">Looking for our parent organization? <a
-                        href="inhealth-index" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit
+                        href="https://inhealthmedicalsolutions.com" style="color:var(--teal-deep);" target="_blank"
+                        rel="noopener">Visit
                         Inhealth Medical Solutions →</a></p>
             </div>
         </div>

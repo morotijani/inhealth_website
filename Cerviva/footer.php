@@ -17,7 +17,10 @@
                 <h4>Connect</h4>
                 <a href="https://instagram.com/cervicarefoundationghana" target="_blank"
                     rel="noopener">@cervicarefoundationghana</a>
-                <a href="mailto:info@cerviva.org">info@cerviva.org</a>
+                <a href="mailto:cervivaghanafoundation@inhealthmedicalsolutions.com">
+                    cervivaghanafoundation@inhealthmedicalsolutions.com
+                    <!-- info@cerviva.org -->
+                </a>
                 <a href="https://inhealthmedicalsolutions.com" target="_blank" rel="noopener">Part of Inhealth Medical
                     Solutions</a>
             </div>
@@ -27,7 +30,8 @@
                 <script>document.write(new Date().getFullYear());</script> Cerviva Ghana Foundation. All rights
                 reserved.
             </span>
-            <span>Contact details to be confirmed with client.</span>
+            <span><a href="tel:+2330000000000" style="color:inherit; text-decoration:none;">+233 000 000
+                    000</a> | P.O. Box KB 503, Accra - Ghana</span>
         </div>
     </div>
 </footer>

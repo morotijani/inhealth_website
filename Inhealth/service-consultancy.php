@@ -11,6 +11,8 @@ include 'header.php';
             <a href="services"
                 style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">←
                 All services</a>
+            <br>
+            <br>
             <div
                 style="width:76px;height:76px;border-radius:16px;background:var(--green-pale);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:22px;">
                 <svg viewBox="0 0 120 120" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">

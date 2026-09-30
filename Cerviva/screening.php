@@ -22,9 +22,8 @@ include 'header.php';
                 most
                 effective way to catch changes before they become cancer. Use the list below to find a facility near
                 you.</p>
-            <div class="who-screened" style="margin-top:26px;">ðŸ©º <span><b>Who should be screened?</b> Women aged
-                    25â€“65
-                    years.</span></div>
+            <div class="who-screened" style="margin-top:26px;">🩺 <span><b>Who should be screened?</b> Women aged
+                    25–65 years.</span></div>
         </div>
     </section>
 
@@ -54,9 +53,9 @@ include 'header.php';
             <div class="section-head">
                 <div class="kicker">What to expect</div>
                 <h2>Screening is quick and routine</h2>
-                <p>[Placeholder, client to confirm exact procedure details, appointment process, and what a screening
+                <!-- <p>[Placeholder, client to confirm exact procedure details, appointment process, and what a screening
                     visit
-                    involves, so we can replace this with accurate step-by-step guidance.]</p>
+                    involves, so we can replace this with accurate step-by-step guidance.]</p> -->
             </div>
             <div class="programs">
                 <div class="program">

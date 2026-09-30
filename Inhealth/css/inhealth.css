@@ -186,6 +186,8 @@
   .about-grid p{color:var(--ink-soft);line-height:1.65;font-size:1rem;}
 
   /* contact */
+  .contact-layout{display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:start;}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
   footer{background:var(--ink);color:#CFE0D8;padding:52px 0 28px;margin-top:0;}
   .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,.15);}
   .foot-grid h4{font-family:'Fraunces',serif;color:#fff;font-size:1.05rem;margin-bottom:14px;font-weight:600;}
@@ -208,6 +210,10 @@
     .service-row .go{grid-area:go;justify-self:start;margin-top:6px;}
     .cause-grid{grid-template-columns:1fr;text-align:left;}
     .foot-grid{grid-template-columns:1fr;gap:26px;}
+    .contact-layout{grid-template-columns:1fr;gap:32px;}
+  }
+  @media (max-width:560px){
+    .form-row{grid-template-columns:1fr;}
   }
   @media (max-width:480px){
     .brand-text .name{font-size:1rem;}

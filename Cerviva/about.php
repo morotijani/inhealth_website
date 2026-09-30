@@ -71,13 +71,13 @@ include 'header.php';
                         and what
                         women actually experience — bringing screening, education and early detection to communities
                         across the
-                        country, in line with Sustainable Development Goal 3's call for universal access to reproductive
+                        country, in line with Sustainable Development Goals call for universal access to reproductive
                         and sexual
                         healthcare.
                     </p>
-                    <p style="margin-top:10px;color:#5A756E;font-size:0.86rem;">[Placeholder — send fuller bio
+                    <!-- <p style="margin-top:10px;color:#5A756E;font-size:0.86rem;">[Placeholder — send fuller bio
                         details,
-                        credentials and a photo and we'll build this out properly.]</p>
+                        credentials and a photo and we'll build this out properly.]</p> -->
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ include 'header.php';
             <div class="section-head">
                 <div class="kicker">Our Work</div>
                 <h2>How we reach women and communities</h2>
-                <p>Awareness only works when it meets people where they are — in their communities, workplaces and
+                <p>Awareness only works when it meets people where they are; in their communities, workplaces and
                     public
                     forums.</p>
             </div>
@@ -140,10 +140,15 @@ include 'header.php';
                     </p>
                 </div>
             </div>
-            <p style="margin-top:22px;color:#5A756E;font-size:0.88rem;">[Placeholder — photos and recaps from past
-                community
-                engagements, corporate tours and seminars will make this section far more convincing once you share
-                them.]</p>
+            <div
+                style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:24px;margin-top:40px;">
+                <img src="media/events/img-1.jpg" alt="Community Engagement"
+                    style="width:100%;height:240px;object-fit:cover;border-radius:12px;border:1px solid var(--line);">
+                <img src="media/events/img-2.jpg" alt="Corporate Tour"
+                    style="width:100%;height:240px;object-fit:cover;border-radius:12px;border:1px solid var(--line);">
+                <img src="media/events/img-3.jpg" alt="Public Seminar"
+                    style="width:100%;height:240px;object-fit:cover;border-radius:12px;border:1px solid var(--line);">
+            </div>
         </div>
     </section>
 

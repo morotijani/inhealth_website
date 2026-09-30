@@ -30,8 +30,7 @@
 
     <header class="site">
         <div class="wrap site-header-inner">
-            <a href="index" class="brand" style="text-decoration:none;"
-                aria-label="Cerviva Ghana Foundation Homepage">
+            <a href="index" class="brand" style="text-decoration:none;" aria-label="Cerviva Ghana Foundation Homepage">
                 <img src="media/logo.png" alt="Cerviva Ghana Foundation Logo">
                 <div class="brand-text">
                     <div class="name">Cerviva Ghana Foundation</div>
@@ -58,8 +57,8 @@
             <div class="mobile-nav-links">
                 <a href="index" class="<?= ($current_page == 'home') ? 'active' : '' ?>">Home</a>
                 <a href="about" class="<?= ($current_page == 'about') ? 'active' : '' ?>">About Us</a>
-                <a href="what-we-do" class="<?= ($current_page == 'what-we-do') ? 'active' : '' ?>">What We Do</a>
-                <a href="get-involved" class="<?= ($current_page == 'get-involved') ? 'active' : '' ?>">Get
+                <a href="about#programs" class="<?= ($current_page == 'what-we-do') ? 'active' : '' ?>">Our Work</a>
+                <a href="contact" class="<?= ($current_page == 'get-involved') ? 'active' : '' ?>">Get
                     Involved</a>
             </div>
             <div class="mobile-nav-cta">

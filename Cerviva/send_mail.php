@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $interest = htmlspecialchars($_POST['interest'] ?? '');
     $message = htmlspecialchars($_POST['message'] ?? '');
 
-    $to = "info@cervivaghanafoundation.inhealthmedicalsolutions.com";
+    $to = "cervivaghanafoundation@inhealthmedicalsolutions.com";
     $subject = "New Contact Form Submission - Cerviva";
 
     $body = "Name: $full_name\n";

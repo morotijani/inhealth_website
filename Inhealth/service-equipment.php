@@ -11,6 +11,8 @@ include 'header.php';
             <a href="services"
                 style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">←
                 All services</a>
+            <br>
+            <br>
             <div
                 style="width:76px;height:76px;border-radius:16px;background:var(--green-pale);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:22px;">
                 <svg viewBox="0 0 120 120" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,10 +74,11 @@ include 'header.php';
                             delivery, installation and ongoing maintenance planning.</p>
                     </div>
                 </div>
-                <p
+                <!-- <p
                     style="margin-top:16px;color:var(--ink-soft);font-size:0.86rem;line-height:1.6;background:var(--paper-2);border:1px solid var(--line);padding:14px 16px;">
                     [Placeholder] Send us your actual equipment categories and brands and we'll replace the categories
-                    above with real, named product lines.</p>
+                    above with real, named product lines.
+                </p> -->
             </div>
             <div class="letter-block">
                 <div class="label">Who this is for</div>

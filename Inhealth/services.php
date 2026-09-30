@@ -11,8 +11,7 @@ include 'header.php';
             <div class="hero-eyebrow">What we do</div>
             <h1 style="max-width:20ch;">Advisory, equipment, diagnostics and training — matched to where you are.</h1>
             <p class="lead" style="max-width:60ch;">Four service lines, built to work together or stand alone. Start
-                with
-                whichever one solves the problem in front of you.</p>
+                with whichever one solves the problem in front of you.</p>
         </div>
     </section>
 
@@ -86,13 +85,16 @@ include 'header.php';
                 </div>
                 <div>
                     <h2 style="font-size:1.6rem;color:var(--ink);">Medical Equipment</h2>
-                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder —
+                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">
+                        <!-- [Placeholder —
                         send us
                         your actual equipment categories/brands and we'll list real product lines here instead of
                         general
-                        categories.] We advise on and supply clinical and diagnostic equipment for hospitals and clinics
+                        categories.]  -->
+                        We advise on and supply clinical and diagnostic equipment for hospitals and clinics
                         —
-                        sourcing, procurement advisory, and guidance on what fits your facility's scale and budget.</p>
+                        sourcing, procurement advisory, and guidance on what fits your facility's scale and budget.
+                    </p>
                     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;">
                         <span class="chip-like"
                             style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Diagnostic
@@ -133,11 +135,14 @@ include 'header.php';
                 </div>
                 <div>
                     <h2 style="font-size:1.6rem;color:var(--ink);">Test Kits</h2>
-                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder —
+                    <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">
+                        <!-- [Placeholder —
                         confirm
-                        which specific test kits you carry.] We supply diagnostic and screening test kits to hospitals,
+                        which specific test kits you carry.]  -->
+                        We supply diagnostic and screening test kits to hospitals,
                         clinics and
-                        laboratories, along with guidance on selection, handling and appropriate clinical use.</p>
+                        laboratories, along with guidance on selection, handling and appropriate clinical use.
+                    </p>
                     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;">
                         <span class="chip-like"
                             style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Rapid

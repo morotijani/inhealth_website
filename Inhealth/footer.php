@@ -15,8 +15,8 @@
             </div>
             <div>
                 <h4>Get in touch</h4>
-                <a href="mailto:info@inhealthmedical.com">info@inhealthmedical.com</a>
-                <a href="#">+233 (0) ___ ___ ___</a>
+                <a href="mailto:info@inhealthmedicalsolutions.com">info@inhealthmedicalsolutions.com</a>
+                <a href="tel:+233000000000">+233 (0) 00 000 0000</a>
                 <a href="#">Accra, Ghana</a>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <script>document.write(new Date().getFullYear())</script> Inhealth Medical Solutions. All rights
                 reserved.
             </span>
-            <span>Contact details &amp; address to be confirmed with client.</span>
+            <span>Privacy Policy & Terms of Service</span>
         </div>
     </div>
 </footer>

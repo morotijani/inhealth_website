@@ -73,7 +73,7 @@ include 'header.php';
                     <p style="margin-top:16px;color:#3C5A54;font-size:0.96rem;line-height:1.65;max-width:56ch;">
                         Dr. Prempeh founded Cerviva Ghana Foundation to close the gap between what's medically possible
                         and what women actually experience — bringing screening, education and early detection to
-                        communities across the country, in line with Sustainable Development Goal 3's call for universal
+                        communities across the country, in line with Sustainable Development Goals call for universal
                         access to reproductive and sexual healthcare.
                     </p>
                 </div>
@@ -86,7 +86,7 @@ include 'header.php';
             <div class="section-head">
                 <div class="kicker">Our Work</div>
                 <h2>How we reach women and communities</h2>
-                <p>Awareness only works when it meets people where they are — in their communities, workplaces and
+                <p>Awareness only works when it meets people where they are; in their communities, workplaces and
                     public forums.</p>
             </div>
             <div class="programs">

@@ -106,7 +106,7 @@ include 'header.php';
         <div class="wrap">
             <div class="section-head">
                 <h2>Four ways we work with you</h2>
-                <p>From strategy to the supplies and training that put it into practice — advisory, equipment,
+                <p>From strategy to the supplies and training that put it into practice; advisory, equipment,
                     diagnostics and
                     capacity-building under one roof.</p>
             </div>
@@ -222,7 +222,8 @@ include 'header.php';
                     community screening drives, and educating women and girls on cervical cancer prevention across
                     Ghana.</p>
             </div>
-            <a class="btn" href="cerviva-index" target="_blank" rel="noopener">Visit the Foundation</a>
+            <a class="btn" href="https://cervivaghanafoundation.inhealthmedicalsolutions.com" target="_blank"
+                rel="noopener">Visit the Foundation</a>
         </div>
     </section>
 
