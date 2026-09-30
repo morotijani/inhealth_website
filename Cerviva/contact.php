@@ -73,31 +73,30 @@ include 'header.php';
     <section class="section" style="padding-top:56px;">
         <div class="wrap" style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:start;">
 
-            <form style="border:1px solid var(--line);background:#fff;padding:32px;border-radius:14px;"
-                onsubmit="event.preventDefault(); this.querySelector('.form-status').style.display='block';">
+            <form action="send_mail.php" method="POST" style="border:1px solid var(--line);background:#fff;padding:32px;border-radius:14px;">
                 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
                     <div>
                         <label style="display:block;font-size:0.85rem;color:#3C5A54;margin-bottom:6px;">Full
                             name</label>
-                        <input required type="text"
+                        <input required type="text" name="full_name"
                             style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-family:inherit;font-size:0.95rem;color:var(--teal-ink);">
                     </div>
                     <div>
                         <label style="display:block;font-size:0.85rem;color:#3C5A54;margin-bottom:6px;">Organization
                             (optional)</label>
-                        <input type="text"
+                        <input type="text" name="organization"
                             style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-family:inherit;font-size:0.95rem;color:var(--teal-ink);">
                     </div>
                 </div>
                 <div style="margin-bottom:16px;">
                     <label style="display:block;font-size:0.85rem;color:#3C5A54;margin-bottom:6px;">Email</label>
-                    <input required type="email"
+                    <input required type="email" name="email"
                         style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-family:inherit;font-size:0.95rem;color:var(--teal-ink);">
                 </div>
                 <div style="margin-bottom:16px;">
                     <label style="display:block;font-size:0.85rem;color:#3C5A54;margin-bottom:6px;">I'm interested
                         in</label>
-                    <select
+                    <select name="interest"
                         style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-family:inherit;font-size:0.95rem;color:var(--teal-ink);">
                         <option>Corporate partnership</option>
                         <option>Volunteering</option>
@@ -107,13 +106,15 @@ include 'header.php';
                 </div>
                 <div style="margin-bottom:20px;">
                     <label style="display:block;font-size:0.85rem;color:#3C5A54;margin-bottom:6px;">Message</label>
-                    <textarea rows="5" required
+                    <textarea rows="5" required name="message"
                         style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-family:inherit;font-size:0.95rem;color:var(--teal-ink);resize:vertical;"></textarea>
                 </div>
                 <button type="submit" class="btn" style="width:100%;justify-content:center;">Send message</button>
-                <p class="form-status" style="display:none;margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">
-                    Thanks — this form isn't wired to an inbox yet. Once you confirm a contact email or form service,
-                    we'll connect it so submissions actually arrive.</p>
+                <?php if (isset($_GET['status']) && $_GET['status'] == 'success'): ?>
+                    <p style="margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">Thank you! Your message has been sent successfully.</p>
+                <?php elseif (isset($_GET['status']) && $_GET['status'] == 'error'): ?>
+                    <p style="margin:14px 0 0;font-size:0.88rem;color:var(--red-deep);">Sorry, there was an error sending your message. Please try again later.</p>
+                <?php endif; ?>
             </form>
 
             <div>
@@ -122,7 +123,7 @@ include 'header.php';
                     <div style="font-size:0.82rem;font-weight:700;color:var(--teal);margin-bottom:14px;">Reach us
                         directly</div>
                     <div style="font-size:0.95rem;color:var(--teal-ink);margin-bottom:10px;">Email <a
-                            href="mailto:info@cerviva.org" style="color:var(--teal-deep);">info@cerviva.org</a></div>
+                            href="mailto:info@cervivaghanafoundation.inhealthmedicalsolutions.com" style="color:var(--teal-deep);">info@cervivaghanafoundation.inhealthmedicalsolutions.com</a></div>
                     <div style="font-size:0.95rem;color:var(--teal-ink);margin-bottom:10px;">Instagram <a
                             href="https://instagram.com/cervicarefoundationghana" target="_blank" rel="noopener"
                             style="color:var(--teal-deep);">@cervicarefoundationghana</a></div>
