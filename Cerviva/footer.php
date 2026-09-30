@@ -1,4 +1,4 @@
-<footer id="footer-contact">
+﻿<footer id="footer-contact">
   <div class="wrap">
     <div class="foot-grid">
       <div>
@@ -7,10 +7,10 @@
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="cerviva-about.php">About us</a>
-        <a href="cerviva-about.php#programs">Our work</a>
-        <a href="cerviva-screening.php">Get screened</a>
-        <a href="cerviva-contact.php">Get involved</a>
+        <a href="about.php">About us</a>
+        <a href="about.php#programs">Our work</a>
+        <a href="screening.php">Get screened</a>
+        <a href="contact.php">Get involved</a>
       </div>
       <div>
         <h4>Connect</h4>
@@ -20,11 +20,12 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Cerviva Ghana Foundation. All rights reserved.</span>
+      <span>Â© 2026 Cerviva Ghana Foundation. All rights reserved.</span>
       <span>Contact details to be confirmed with client.</span>
     </div>
   </div>
 </footer>
 
+<script src="js/main.js"></script>
 </body>
 </html>

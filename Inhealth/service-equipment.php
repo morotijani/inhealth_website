@@ -1,14 +1,14 @@
-<?php
-$page_title = 'Medical Equipment Procurement — Inhealth Medical Solutions';
+﻿<?php
+$page_title = 'Medical Equipment Procurement â€” Inhealth Medical Solutions';
 $page_description = 'Procurement and sourcing advisory for clinical, diagnostic and screening equipment tailored to hospital and clinic scale in Ghana.';
 $current_page = 'services';
-include 'inhealth-header.php';
+include 'header.php';
 ?>
 
 <main id="main-content">
 <section class="hero" style="padding:48px 0 44px;">
   <div class="wrap">
-    <a href="inhealth-services.php" style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">← All services</a>
+    <a href="services.php" style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">â† All services</a>
     <div style="width:76px;height:76px;border-radius:16px;background:var(--green-pale);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:22px;"><svg viewBox="0 0 120 120" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="12" y="22" width="96" height="62" rx="8" stroke="#0A5B3D" stroke-width="5"/>
 <path d="M22 56h16l8-20 12 42 8-22h26" stroke="#9E1F1F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -17,7 +17,7 @@ include 'inhealth-header.php';
 </svg></div><div class="hero-eyebrow" style="margin-top:20px;">Service 02</div>
     <h1 style="max-width:20ch;">Medical Equipment</h1>
     <p class="lead" style="max-width:60ch;">Sourcing and procurement advisory for clinical and diagnostic equipment, matched to your facility's scale, budget and regulatory requirements.</p>
-    <div class="hero-ctas"><a class="btn" href="inhealth-contact.php">Discuss your equipment needs</a></div>
+    <div class="hero-ctas"><a class="btn" href="contact.php">Discuss your equipment needs</a></div>
   </div>
 </section>
 <section class="section" style="padding-top:0;padding-bottom:0;">
@@ -73,14 +73,14 @@ include 'inhealth-header.php';
   <div class="wrap">
     <div class="section-head"><h2>Other services</h2></div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
-      <a href="inhealth-service-consultancy.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 01</div><h3 style="font-size:1.05rem;">Medical &amp; Public Health Consultancy</h3></a>
-<a href="inhealth-service-testkits.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 03</div><h3 style="font-size:1.05rem;">Test Kits</h3></a>
-<a href="inhealth-service-training.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 04</div><h3 style="font-size:1.05rem;">Medical Training</h3></a>
+      <a href="service-consultancy.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 01</div><h3 style="font-size:1.05rem;">Medical &amp; Public Health Consultancy</h3></a>
+<a href="service-testkits.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 03</div><h3 style="font-size:1.05rem;">Test Kits</h3></a>
+<a href="service-training.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 04</div><h3 style="font-size:1.05rem;">Medical Training</h3></a>
     </div>
   </div>
 </section>
 </main>
 
 <?php
-include 'inhealth-footer.php';
+include 'footer.php';
 ?>

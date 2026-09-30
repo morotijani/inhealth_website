@@ -1,4 +1,4 @@
-<footer id="contact">
+﻿<footer id="contact">
   <div class="wrap">
     <div class="foot-grid">
       <div>
@@ -7,8 +7,8 @@
       </div>
       <div>
         <h4>Company</h4>
-        <a href="inhealth-services.php">Services</a>
-        <a href="inhealth-about.php">About us</a>
+        <a href="services.php">Services</a>
+        <a href="about.php">About us</a>
         <a href="cerviva-homepage.php" target="_blank" rel="noopener">Cerviva Foundation</a>
       </div>
       <div>
@@ -19,11 +19,12 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Inhealth Medical Solutions. All rights reserved.</span>
+      <span>Â© 2026 Inhealth Medical Solutions. All rights reserved.</span>
       <span>Contact details &amp; address to be confirmed with client.</span>
     </div>
   </div>
 </footer>
 
+<script src="js/main.js"></script>
 </body>
 </html>

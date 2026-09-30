@@ -1,8 +1,8 @@
-<?php
-$page_title = 'Contact Us — Inhealth Medical Solutions';
+﻿<?php
+$page_title = 'Contact Us â€” Inhealth Medical Solutions';
 $page_description = 'Get in touch with Inhealth Medical Solutions for facility advisory, equipment procurement, test kits, or training programmes.';
 $current_page = 'contact';
-include 'inhealth-header.php';
+include 'header.php';
 ?>
 
 <main id="main-content">
@@ -14,7 +14,7 @@ include 'inhealth-header.php';
 <path d="M28 68l7 26" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
 </svg></div><div class="hero-eyebrow">Get in touch</div>
     <h1 style="max-width:18ch;">Tell us what you're working on.</h1>
-    <p class="lead" style="max-width:56ch;">Whether it's a facility setup, a procurement question, or a training programme — send us the details and we'll route it to the right person.</p>
+    <p class="lead" style="max-width:56ch;">Whether it's a facility setup, a procurement question, or a training programme â€” send us the details and we'll route it to the right person.</p>
   </div>
 </section>
 
@@ -51,7 +51,7 @@ include 'inhealth-header.php';
         <textarea rows="5" required style="width:100%;padding:11px 12px;border:1px solid var(--line);background:#fff;font-family:inherit;font-size:0.95rem;color:var(--ink);resize:vertical;"></textarea>
       </div>
       <button type="submit" class="btn" style="width:100%;justify-content:center;">Send message</button>
-      <p class="form-status" style="display:none;margin:14px 0 0;font-size:0.88rem;color:var(--green-deep);">Thanks — this form isn't wired to an inbox yet. Once you confirm a contact email or form service, we'll connect it so submissions actually arrive.</p>
+      <p class="form-status" style="display:none;margin:14px 0 0;font-size:0.88rem;color:var(--green-deep);">Thanks â€” this form isn't wired to an inbox yet. Once you confirm a contact email or form service, we'll connect it so submissions actually arrive.</p>
     </form>
 
     <div>
@@ -61,18 +61,18 @@ include 'inhealth-header.php';
           <li>Email <span class="n"><a href="mailto:info@inhealthmedical.com" style="color:var(--red-deep);">info@inhealthmedical.com</a></span></li>
           <li>Phone <span class="n">+233 (0) ___ ___ ___</span></li>
           <li>Location <span class="n">Accra, Ghana</span></li>
-          <li>Hours <span class="n">Mon–Fri, 8:00–17:00</span></li>
+          <li>Hours <span class="n">Monâ€“Fri, 8:00â€“17:00</span></li>
         </ul>
       </div>
       <div style="border:1px solid var(--line);height:220px;background:var(--paper-2);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);font-size:0.9rem;">
-        Map — to be added once office address is confirmed
+        Map â€” to be added once office address is confirmed
       </div>
-      <p style="margin-top:16px;color:var(--ink-soft);font-size:0.9rem;line-height:1.6;">Looking for the Cerviva Ghana Foundation instead? <a href="cerviva-homepage.php" style="color:var(--red-deep);" target="_blank" rel="noopener">Visit their site →</a></p>
+      <p style="margin-top:16px;color:var(--ink-soft);font-size:0.9rem;line-height:1.6;">Looking for the Cerviva Ghana Foundation instead? <a href="cerviva-homepage.php" style="color:var(--red-deep);" target="_blank" rel="noopener">Visit their site â†’</a></p>
     </div>
   </div>
 </section>
 </main>
 
 <?php
-include 'inhealth-footer.php';
+include 'footer.php';
 ?>

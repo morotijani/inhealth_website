@@ -1,8 +1,8 @@
-<?php
-$page_title = 'About Us — Cerviva Ghana Foundation';
+﻿<?php
+$page_title = 'About Us â€” Cerviva Ghana Foundation';
 $page_description = 'Learn about Cerviva Ghana Foundation, our history, clinical partners, leadership, and public health impact across Ghana.';
 $current_page = 'about';
-include 'cerviva-header.php';
+include 'header.php';
 ?>
 
 <main id="main-content">
@@ -12,7 +12,7 @@ include 'cerviva-header.php';
 <path d="M60 100S22 76 22 48a20 20 0 0138-9 20 20 0 0138 9c0 28-38 52-38 52z" stroke="#1E7D74" stroke-width="5" stroke-linejoin="round"/>
 <path d="M40 92c-10-14-8-24 4-30" stroke="#123F3A" stroke-width="4" stroke-linecap="round"/>
 </svg></div><div class="ribbon-tag"><span class="dot"></span> About us</div>
-    <h1 style="max-width:20ch;">Awareness, education and access — built for Ghana's communities.</h1>
+    <h1 style="max-width:20ch;">Awareness, education and access â€” built for Ghana's communities.</h1>
     <p class="lead" style="max-width:56ch;">Cerviva Ghana Foundation exists to make sure no woman misses a preventable diagnosis simply because she didn't know, or couldn't reach, the right care.</p>
   </div>
 </section>
@@ -39,13 +39,13 @@ include 'cerviva-header.php';
     <div class="founder">
       <div class="founder-photo">CP</div>
       <div>
-        <blockquote>"Cervical cancer is preventable — but only if women know where to go, and can actually get there."</blockquote>
+        <blockquote>"Cervical cancer is preventable â€” but only if women know where to go, and can actually get there."</blockquote>
         <div class="name">Dr. Caryn Agyeman Prempeh</div>
-        <div class="role">Founder &amp; Lead, Cerviva Ghana Foundation · Public Health Physician &amp; Healthcare Leader · also known as Ohemaa Afia Kobi Prempeh</div>
+        <div class="role">Founder &amp; Lead, Cerviva Ghana Foundation Â· Public Health Physician &amp; Healthcare Leader Â· also known as Ohemaa Afia Kobi Prempeh</div>
         <p style="margin-top:16px;color:#3C5A54;font-size:0.96rem;line-height:1.65;max-width:56ch;">
-          Dr. Prempeh founded Cerviva Ghana Foundation to close the gap between what's medically possible and what women actually experience — bringing screening, education and early detection to communities across the country, in line with Sustainable Development Goal 3's call for universal access to reproductive and sexual healthcare.
+          Dr. Prempeh founded Cerviva Ghana Foundation to close the gap between what's medically possible and what women actually experience â€” bringing screening, education and early detection to communities across the country, in line with Sustainable Development Goal 3's call for universal access to reproductive and sexual healthcare.
         </p>
-        <p style="margin-top:10px;color:#5A756E;font-size:0.86rem;">[Placeholder — send fuller bio details, credentials and a photo and we'll build this out properly.]</p>
+        <p style="margin-top:10px;color:#5A756E;font-size:0.86rem;">[Placeholder â€” send fuller bio details, credentials and a photo and we'll build this out properly.]</p>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@ include 'cerviva-header.php';
     <div class="section-head">
       <div class="kicker">Our Work</div>
       <h2>How we reach women and communities</h2>
-      <p>Awareness only works when it meets people where they are — in their communities, workplaces and public forums.</p>
+      <p>Awareness only works when it meets people where they are â€” in their communities, workplaces and public forums.</p>
     </div>
     <div class="programs">
       <div class="program">
@@ -90,7 +90,7 @@ include 'cerviva-header.php';
         <p>Open seminars aimed at empowering young women and educating the wider public on cervical cancer and HPV.</p>
       </div>
     </div>
-    <p style="margin-top:22px;color:#5A756E;font-size:0.88rem;">[Placeholder — photos and recaps from past community engagements, corporate tours and seminars will make this section far more convincing once you share them.]</p>
+    <p style="margin-top:22px;color:#5A756E;font-size:0.88rem;">[Placeholder â€” photos and recaps from past community engagements, corporate tours and seminars will make this section far more convincing once you share them.]</p>
   </div>
 </section>
 
@@ -102,7 +102,7 @@ include 'cerviva-header.php';
         <p>We run community engagements, corporate education tours and public seminars across Ghana.</p>
       </div>
       <div class="involve-ctas">
-        <a class="btn light" href="cerviva-contact.php">Get in touch</a>
+        <a class="btn light" href="contact.php">Get in touch</a>
       </div>
     </div>
   </div>
@@ -110,5 +110,5 @@ include 'cerviva-header.php';
 </main>
 
 <?php
-include 'cerviva-footer.php';
+include 'footer.php';
 ?>

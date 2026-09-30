@@ -1,8 +1,8 @@
-<?php
-$page_title = 'Contact & Get Involved — Cerviva Ghana Foundation';
+﻿<?php
+$page_title = 'Contact & Get Involved â€” Cerviva Ghana Foundation';
 $page_description = 'Partner with Cerviva Ghana Foundation, sponsor a screening drive, volunteer, or reach our team in Accra.';
 $current_page = 'contact';
-include 'cerviva-header.php';
+include 'header.php';
 ?>
 
 <main id="main-content">
@@ -13,7 +13,7 @@ include 'cerviva-header.php';
 <path d="M40 92c-10-14-8-24 4-30" stroke="#123F3A" stroke-width="4" stroke-linecap="round"/>
 </svg></div><div class="ribbon-tag"><span class="dot"></span> Get involved</div>
     <h1 style="max-width:20ch;">Help us reach more women, faster.</h1>
-    <p class="lead" style="max-width:56ch;">Whether you want to partner with us, sponsor a screening drive, or bring Cerviva to speak at your organization — start here.</p>
+    <p class="lead" style="max-width:56ch;">Whether you want to partner with us, sponsor a screening drive, or bring Cerviva to speak at your organization â€” start here.</p>
   </div>
 </section>
 
@@ -84,7 +84,7 @@ include 'cerviva-header.php';
         <textarea rows="5" required style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-family:inherit;font-size:0.95rem;color:var(--teal-ink);resize:vertical;"></textarea>
       </div>
       <button type="submit" class="btn" style="width:100%;justify-content:center;">Send message</button>
-      <p class="form-status" style="display:none;margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">Thanks — this form isn't wired to an inbox yet. Once you confirm a contact email or form service, we'll connect it so submissions actually arrive.</p>
+      <p class="form-status" style="display:none;margin:14px 0 0;font-size:0.88rem;color:var(--teal-deep);">Thanks â€” this form isn't wired to an inbox yet. Once you confirm a contact email or form service, we'll connect it so submissions actually arrive.</p>
     </form>
 
     <div>
@@ -94,12 +94,12 @@ include 'cerviva-header.php';
         <div style="font-size:0.95rem;color:var(--teal-ink);margin-bottom:10px;">Instagram <a href="https://instagram.com/cervicarefoundationghana" target="_blank" rel="noopener" style="color:var(--teal-deep);">@cervicarefoundationghana</a></div>
         <div style="font-size:0.95rem;color:var(--teal-ink);">Location Accra, Ghana</div>
       </div>
-      <p style="color:#5A756E;font-size:0.9rem;line-height:1.6;">Looking for our parent organization? <a href="inhealth-homepage.php" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit Inhealth Medical Solutions →</a></p>
+      <p style="color:#5A756E;font-size:0.9rem;line-height:1.6;">Looking for our parent organization? <a href="inhealth-homepage.php" style="color:var(--teal-deep);" target="_blank" rel="noopener">Visit Inhealth Medical Solutions â†’</a></p>
     </div>
   </div>
 </section>
 </main>
 
 <?php
-include 'cerviva-footer.php';
+include 'footer.php';
 ?>

@@ -1,8 +1,8 @@
-<?php
-$page_title = 'Get Screened — Cerviva Ghana Foundation';
+﻿<?php
+$page_title = 'Get Screened â€” Cerviva Ghana Foundation';
 $page_description = 'Directory of verified cervical cancer screening centres across Ghana, screening age guidelines, and clinic referral support.';
 $current_page = 'screening';
-include 'cerviva-header.php';
+include 'header.php';
 ?>
 
 <main id="main-content">
@@ -14,7 +14,7 @@ include 'cerviva-header.php';
 </svg></div><div class="ribbon-tag"><span class="dot"></span> Get Screened</div>
     <h1 style="max-width:20ch;">Find a screening centre near you.</h1>
     <p class="lead" style="max-width:56ch;">Cervical cancer screening is quick, widely available, and the single most effective way to catch changes before they become cancer. Use the list below to find a facility near you.</p>
-    <div class="who-screened" style="margin-top:26px;">🩺 <span><b>Who should be screened?</b> Women aged 25–65 years.</span></div>
+    <div class="who-screened" style="margin-top:26px;">ðŸ©º <span><b>Who should be screened?</b> Women aged 25â€“65 years.</span></div>
   </div>
 </section>
 
@@ -30,7 +30,7 @@ include 'cerviva-header.php';
   <div class="wrap">
     <div class="filters" id="filters"></div>
     <div class="facility-grid" id="facilityGrid"></div>
-    <p class="facility-note">List compiled with the Medical Women Association of Ghana (MWAG), Lexta Ghana Limited and Jhpiego. This list is being expanded as more facilities are confirmed — if your region isn't listed yet, get in touch and we'll help you find the nearest option.</p>
+    <p class="facility-note">List compiled with the Medical Women Association of Ghana (MWAG), Lexta Ghana Limited and Jhpiego. This list is being expanded as more facilities are confirmed â€” if your region isn't listed yet, get in touch and we'll help you find the nearest option.</p>
   </div>
 </section>
 
@@ -39,13 +39,13 @@ include 'cerviva-header.php';
     <div class="section-head">
       <div class="kicker">What to expect</div>
       <h2>Screening is quick and routine</h2>
-      <p>[Placeholder — client to confirm exact procedure details, appointment process, and what a screening visit involves, so we can replace this with accurate step-by-step guidance.]</p>
+      <p>[Placeholder â€” client to confirm exact procedure details, appointment process, and what a screening visit involves, so we can replace this with accurate step-by-step guidance.]</p>
     </div>
     <div class="programs">
       <div class="program">
         <div class="num">01</div>
         <h3>Book ahead where needed</h3>
-        <p>Some facilities listed require an appointment — check before you go, or contact us and we'll help confirm.</p>
+        <p>Some facilities listed require an appointment â€” check before you go, or contact us and we'll help confirm.</p>
       </div>
       <div class="program">
         <div class="num">02</div>
@@ -65,19 +65,19 @@ include 'cerviva-header.php';
 <script>
 const data = {
     "Greater Accra": [
-      "Korle Bu Teaching Hospital — Reproductive Health Unit",
+      "Korle Bu Teaching Hospital â€” Reproductive Health Unit",
       "Ridge Hospital, Accra",
       "University Hospital, Legon",
-      "La General Hospital — Reproductive Health Unit",
+      "La General Hospital â€” Reproductive Health Unit",
       "Airport Women's Hospital, Airport Residential Area",
-      "Marie Stopes Ghana — Kokomlemle",
+      "Marie Stopes Ghana â€” Kokomlemle",
       "Bediako CHPS Compound",
-      "Medicas Hospital — Madina (by appointment)",
-      "Divine Grace Clinic & Maternity Home — Kaneshie",
-      "Ga East Hospital — Kwabenya",
+      "Medicas Hospital â€” Madina (by appointment)",
+      "Divine Grace Clinic & Maternity Home â€” Kaneshie",
+      "Ga East Hospital â€” Kwabenya",
       "Shai Osu Doku Hospital, Dodowa",
       "37 Military Hospital",
-      "Greater Accra Regional Hospital — Ridge",
+      "Greater Accra Regional Hospital â€” Ridge",
       "Zenu Polyclinic",
       "Oyibi Health Center",
       "Katamanso Health Center",
@@ -87,7 +87,7 @@ const data = {
       "Komfo Anokye Teaching Hospital, Kumasi",
       "Kumasi South Hospital",
       "Bomso Hospital, Kumasi",
-      "Marie Stopes — Santasi",
+      "Marie Stopes â€” Santasi",
       "Peaceland Clinic, South Suntreso",
       "Signer Care, Asokwa",
       "Peace and Love Hospital, Oduom",
@@ -184,5 +184,5 @@ const data = {
 </script>
 
 <?php
-include 'cerviva-footer.php';
+include 'footer.php';
 ?>

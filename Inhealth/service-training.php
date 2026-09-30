@@ -1,22 +1,22 @@
-<?php
-$page_title = 'Medical Training — Inhealth Medical Solutions';
+﻿<?php
+$page_title = 'Medical Training â€” Inhealth Medical Solutions';
 $page_description = 'Structured clinical skills workshops, screening protocol training, and quality-of-care certification for hospital teams.';
 $current_page = 'services';
-include 'inhealth-header.php';
+include 'header.php';
 ?>
 
 <main id="main-content">
 <section class="hero" style="padding:48px 0 44px;">
   <div class="wrap">
-    <a href="inhealth-services.php" style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">← All services</a>
+    <a href="services.php" style="font-size:0.86rem;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;">â† All services</a>
     <div style="width:76px;height:76px;border-radius:16px;background:var(--green-pale);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:22px;"><svg viewBox="0 0 120 120" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M60 28L12 50l48 20 48-20-48-22z" stroke="#0A5B3D" stroke-width="5" stroke-linejoin="round"/>
 <path d="M34 60v22c0 9 52 9 52 0V60" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
 <line x1="108" y1="50" x2="108" y2="80" stroke="#9E1F1F" stroke-width="5" stroke-linecap="round"/>
 </svg></div><div class="hero-eyebrow" style="margin-top:20px;">Service 04</div>
     <h1 style="max-width:20ch;">Medical Training</h1>
-    <p class="lead" style="max-width:60ch;">Structured training for hospital and clinic teams — delivered on-site or in cohorts, built around the clinical skills and protocols your staff actually need.</p>
-    <div class="hero-ctas"><a class="btn" href="inhealth-contact.php">Plan a training programme</a></div>
+    <p class="lead" style="max-width:60ch;">Structured training for hospital and clinic teams â€” delivered on-site or in cohorts, built around the clinical skills and protocols your staff actually need.</p>
+    <div class="hero-ctas"><a class="btn" href="contact.php">Plan a training programme</a></div>
   </div>
 </section>
 
@@ -62,14 +62,14 @@ include 'inhealth-header.php';
   <div class="wrap">
     <div class="section-head"><h2>Other services</h2></div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
-      <a href="inhealth-service-consultancy.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 01</div><h3 style="font-size:1.05rem;">Medical &amp; Public Health Consultancy</h3></a>
-<a href="inhealth-service-equipment.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 02</div><h3 style="font-size:1.05rem;">Medical Equipment</h3></a>
-<a href="inhealth-service-testkits.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 03</div><h3 style="font-size:1.05rem;">Test Kits</h3></a>
+      <a href="service-consultancy.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 01</div><h3 style="font-size:1.05rem;">Medical &amp; Public Health Consultancy</h3></a>
+<a href="service-equipment.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 02</div><h3 style="font-size:1.05rem;">Medical Equipment</h3></a>
+<a href="service-testkits.php" style="display:block;border:1px solid var(--line);padding:22px;text-decoration:none;color:var(--ink);"><div style="font-size:0.78rem;color:var(--ink-soft);margin-bottom:8px;">Service 03</div><h3 style="font-size:1.05rem;">Test Kits</h3></a>
     </div>
   </div>
 </section>
 </main>
 
 <?php
-include 'inhealth-footer.php';
+include 'footer.php';
 ?>
