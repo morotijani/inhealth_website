@@ -1,11 +1,17 @@
 <?php
-$page_title = 'Cerviva Ghana Foundation — Cervical Cancer Awareness & Prevention';
+$page_title = 'About Us — Cerviva Ghana Foundation';
+$page_description = 'Learn about Cerviva Ghana Foundation, our history, clinical partners, leadership, and public health impact across Ghana.';
+$current_page = 'about';
 include 'cerviva-header.php';
 ?>
 
+<main id="main-content">
 <section class="hero" style="padding:56px 0 48px;">
   <div class="wrap">
-    <div class="ribbon-tag"><span class="dot"></span> About us</div>
+    <div style="width:76px;height:76px;border-radius:16px;background:var(--mint-1);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:20px;"><svg viewBox="0 0 120 120" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M60 100S22 76 22 48a20 20 0 0138-9 20 20 0 0138 9c0 28-38 52-38 52z" stroke="#1E7D74" stroke-width="5" stroke-linejoin="round"/>
+<path d="M40 92c-10-14-8-24 4-30" stroke="#123F3A" stroke-width="4" stroke-linecap="round"/>
+</svg></div><div class="ribbon-tag"><span class="dot"></span> About us</div>
     <h1 style="max-width:20ch;">Awareness, education and access — built for Ghana's communities.</h1>
     <p class="lead" style="max-width:56ch;">Cerviva Ghana Foundation exists to make sure no woman misses a preventable diagnosis simply because she didn't know, or couldn't reach, the right care.</p>
   </div>
@@ -54,17 +60,32 @@ include 'cerviva-header.php';
     </div>
     <div class="programs">
       <div class="program">
-        <div class="num">01</div>
+        <div style="margin-bottom:6px;"><svg viewBox="0 0 120 120" width="34" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="38" cy="40" r="14" stroke="#1E7D74" stroke-width="5"/>
+<circle cx="82" cy="40" r="14" stroke="#123F3A" stroke-width="5"/>
+<path d="M14 98c0-19 12-32 24-32s24 13 24 32" stroke="#1E7D74" stroke-width="5" stroke-linecap="round"/>
+<path d="M58 98c0-19 12-32 24-32s24 13 24 32" stroke="#123F3A" stroke-width="5" stroke-linecap="round"/>
+</svg></div><div class="num">01</div>
         <h3>Community engagements</h3>
         <p>On-the-ground sessions in towns and neighbourhoods, bringing screening information directly to women who may not otherwise access it.</p>
       </div>
       <div class="program">
-        <div class="num">02</div>
+        <div style="margin-bottom:6px;"><svg viewBox="0 0 120 120" width="34" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="18" y="46" width="84" height="54" rx="6" stroke="#1E7D74" stroke-width="5"/>
+<path d="M44 46v-10a8 8 0 018-8h16a8 8 0 018 8v10" stroke="#1E7D74" stroke-width="5"/>
+<line x1="18" y1="70" x2="102" y2="70" stroke="#123F3A" stroke-width="5"/>
+<line x1="52" y1="70" x2="52" y2="84" stroke="#123F3A" stroke-width="5" stroke-linecap="round"/>
+<line x1="68" y1="70" x2="68" y2="84" stroke="#123F3A" stroke-width="5" stroke-linecap="round"/>
+</svg></div><div class="num">02</div>
         <h3>Corporate education tours</h3>
         <p>Workplace sessions that give employers a practical way to support their staff's reproductive health.</p>
       </div>
       <div class="program">
-        <div class="num">03</div>
+        <div style="margin-bottom:6px;"><svg viewBox="0 0 120 120" width="34" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 52v16l72 22V32L18 52z" stroke="#1E7D74" stroke-width="5" stroke-linejoin="round"/>
+<path d="M90 38a22 22 0 010 44" stroke="#123F3A" stroke-width="5" stroke-linecap="round"/>
+<path d="M28 68l7 26" stroke="#1E7D74" stroke-width="5" stroke-linecap="round"/>
+</svg></div><div class="num">03</div>
         <h3>Public seminars</h3>
         <p>Open seminars aimed at empowering young women and educating the wider public on cervical cancer and HPV.</p>
       </div>
@@ -81,10 +102,13 @@ include 'cerviva-header.php';
         <p>We run community engagements, corporate education tours and public seminars across Ghana.</p>
       </div>
       <div class="involve-ctas">
-        <a class="btn light" href="https://claude.ai/artifact/6xBgx3SxNThCk8PKNywUnn">Get in touch</a>
+        <a class="btn light" href="cerviva-contact.php">Get in touch</a>
       </div>
     </div>
   </div>
 </section>
+</main>
 
-<?php include 'cerviva-footer.php'; ?>
+<?php
+include 'cerviva-footer.php';
+?>

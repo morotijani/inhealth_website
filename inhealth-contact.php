@@ -1,11 +1,18 @@
 <?php
-$page_title = 'Inhealth Medical Solutions — Healthcare & Medical Consultancy';
+$page_title = 'Contact Us — Inhealth Medical Solutions';
+$page_description = 'Get in touch with Inhealth Medical Solutions for facility advisory, equipment procurement, test kits, or training programmes.';
+$current_page = 'contact';
 include 'inhealth-header.php';
 ?>
 
+<main id="main-content">
 <section class="hero" style="padding:56px 0 48px;">
   <div class="wrap">
-    <div class="hero-eyebrow">Get in touch</div>
+    <div style="width:76px;height:76px;border-radius:16px;background:var(--green-pale);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;margin-bottom:20px;"><svg viewBox="0 0 120 120" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 52v16l72 22V32L18 52z" stroke="#0A5B3D" stroke-width="5" stroke-linejoin="round"/>
+<path d="M90 38a22 22 0 010 44" stroke="#9E1F1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M28 68l7 26" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+</svg></div><div class="hero-eyebrow">Get in touch</div>
     <h1 style="max-width:18ch;">Tell us what you're working on.</h1>
     <p class="lead" style="max-width:56ch;">Whether it's a facility setup, a procurement question, or a training programme — send us the details and we'll route it to the right person.</p>
   </div>
@@ -60,9 +67,12 @@ include 'inhealth-header.php';
       <div style="border:1px solid var(--line);height:220px;background:var(--paper-2);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);font-size:0.9rem;">
         Map — to be added once office address is confirmed
       </div>
-      <p style="margin-top:16px;color:var(--ink-soft);font-size:0.9rem;line-height:1.6;">Looking for the Cerviva Ghana Foundation instead? <a href="https://claude.ai/artifact/HA8sCGHFd6ZnkuJucY54cm" style="color:var(--red-deep);" target="_blank" rel="noopener">Visit their site →</a></p>
+      <p style="margin-top:16px;color:var(--ink-soft);font-size:0.9rem;line-height:1.6;">Looking for the Cerviva Ghana Foundation instead? <a href="cerviva-homepage.php" style="color:var(--red-deep);" target="_blank" rel="noopener">Visit their site →</a></p>
     </div>
   </div>
 </section>
+</main>
 
-<?php include 'inhealth-footer.php'; ?>
+<?php
+include 'inhealth-footer.php';
+?>

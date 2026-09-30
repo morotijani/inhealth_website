@@ -1,8 +1,11 @@
 <?php
-$page_title = 'Inhealth Medical Solutions — Healthcare & Medical Consultancy';
+$page_title = 'Services — Inhealth Medical Solutions';
+$page_description = 'Advisory, equipment, diagnostics and training matched to Ghana\'s health facilities, corporate institutions and development programmes.';
+$current_page = 'services';
 include 'inhealth-header.php';
 ?>
 
+<main id="main-content">
 <section class="hero" style="padding:56px 0 48px;">
   <div class="wrap">
     <div class="hero-eyebrow">What we do</div>
@@ -14,7 +17,13 @@ include 'inhealth-header.php';
 <section class="section" style="padding-top:20px;" id="consultancy">
   <div class="wrap">
     <div style="display:grid;grid-template-columns:44px 1fr;gap:26px;border-top:1px solid var(--line);padding-top:36px;">
-      <div class="mark" style="width:38px;height:38px;">Cn</div>
+      <div class="mark" style="width:64px;height:64px;display:flex;align-items:center;justify-content:center;background:var(--green-pale);border-radius:12px;border:1px solid var(--line);"><svg viewBox="0 0 120 120" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="30" y="18" width="60" height="88" rx="6" stroke="#0A5B3D" stroke-width="5"/>
+<rect x="45" y="10" width="30" height="14" rx="4" fill="#0A5B3D"/>
+<path d="M42 55l12 12 24-24" stroke="#9E1F1F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="42" y1="82" x2="78" y2="82" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+<line x1="42" y1="92" x2="66" y2="92" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+</svg></div>
       <div>
         <h2 style="font-size:1.6rem;color:var(--ink);">Medical &amp; Public Health Consultancy</h2>
         <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">Advisory support for the people responsible for how care gets delivered — from a single facility to a national programme.</p>
@@ -26,6 +35,7 @@ include 'inhealth-header.php';
           <div class="letter-block" style="padding:18px 20px;"><div style="font-size:0.95rem;color:var(--ink);">Quality improvement</div></div>
           <div class="letter-block" style="padding:18px 20px;"><div style="font-size:0.95rem;color:var(--ink);">Research &amp; M&amp;E</div></div>
         </div>
+        <a href="inhealth-service-consultancy.php" class="go" style="display:inline-block;margin-top:20px;">Full details →</a>
       </div>
     </div>
   </div>
@@ -34,7 +44,12 @@ include 'inhealth-header.php';
 <section class="section" style="padding-top:0;" id="equipment">
   <div class="wrap">
     <div style="display:grid;grid-template-columns:44px 1fr;gap:26px;border-top:1px solid var(--line);padding-top:36px;">
-      <div class="mark" style="width:38px;height:38px;">Eq</div>
+      <div class="mark" style="width:64px;height:64px;display:flex;align-items:center;justify-content:center;background:var(--green-pale);border-radius:12px;border:1px solid var(--line);"><svg viewBox="0 0 120 120" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="12" y="22" width="96" height="62" rx="8" stroke="#0A5B3D" stroke-width="5"/>
+<path d="M22 56h16l8-20 12 42 8-22h26" stroke="#9E1F1F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="48" y1="96" x2="72" y2="96" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+<line x1="60" y1="84" x2="60" y2="100" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+</svg></div>
       <div>
         <h2 style="font-size:1.6rem;color:var(--ink);">Medical Equipment</h2>
         <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder — send us your actual equipment categories/brands and we'll list real product lines here instead of general categories.] We advise on and supply clinical and diagnostic equipment for hospitals and clinics — sourcing, procurement advisory, and guidance on what fits your facility's scale and budget.</p>
@@ -44,6 +59,7 @@ include 'inhealth-header.php';
           <span class="chip-like" style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Screening equipment</span>
           <span class="chip-like" style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Procurement advisory</span>
         </div>
+        <a href="inhealth-service-equipment.php" class="go" style="display:inline-block;margin-top:20px;">Full details →</a>
       </div>
     </div>
   </div>
@@ -52,7 +68,13 @@ include 'inhealth-header.php';
 <section class="section" style="padding-top:0;" id="testkits">
   <div class="wrap">
     <div style="display:grid;grid-template-columns:44px 1fr;gap:26px;border-top:1px solid var(--line);padding-top:36px;">
-      <div class="mark" style="width:38px;height:38px;">Tk</div>
+      <div class="mark" style="width:64px;height:64px;display:flex;align-items:center;justify-content:center;background:var(--green-pale);border-radius:12px;border:1px solid var(--line);"><svg viewBox="0 0 120 120" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M48 14h24v20l18 54a11 11 0 01-11 15H41a11 11 0 01-11-15l18-54V14z" stroke="#0A5B3D" stroke-width="5" stroke-linejoin="round"/>
+<line x1="42" y1="14" x2="78" y2="14" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+<path d="M39 72h42" stroke="#9E1F1F" stroke-width="5"/>
+<circle cx="54" cy="90" r="4.5" fill="#9E1F1F"/>
+<circle cx="67" cy="96" r="3.5" fill="#9E1F1F"/>
+</svg></div>
       <div>
         <h2 style="font-size:1.6rem;color:var(--ink);">Test Kits</h2>
         <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">[Placeholder — confirm which specific test kits you carry.] We supply diagnostic and screening test kits to hospitals, clinics and laboratories, along with guidance on selection, handling and appropriate clinical use.</p>
@@ -61,6 +83,7 @@ include 'inhealth-header.php';
           <span class="chip-like" style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Screening kits</span>
           <span class="chip-like" style="border:1px solid var(--line);padding:8px 16px;font-size:0.86rem;color:var(--ink-soft);">Laboratory supplies</span>
         </div>
+        <a href="inhealth-service-testkits.php" class="go" style="display:inline-block;margin-top:20px;">Full details →</a>
       </div>
     </div>
   </div>
@@ -69,7 +92,11 @@ include 'inhealth-header.php';
 <section class="section" style="padding-top:0;padding-bottom:56px;" id="training">
   <div class="wrap">
     <div style="display:grid;grid-template-columns:44px 1fr;gap:26px;border-top:1px solid var(--line);padding-top:36px;">
-      <div class="mark" style="width:38px;height:38px;">Tr</div>
+      <div class="mark" style="width:64px;height:64px;display:flex;align-items:center;justify-content:center;background:var(--green-pale);border-radius:12px;border:1px solid var(--line);"><svg viewBox="0 0 120 120" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M60 28L12 50l48 20 48-20-48-22z" stroke="#0A5B3D" stroke-width="5" stroke-linejoin="round"/>
+<path d="M34 60v22c0 9 52 9 52 0V60" stroke="#0A5B3D" stroke-width="5" stroke-linecap="round"/>
+<line x1="108" y1="50" x2="108" y2="80" stroke="#9E1F1F" stroke-width="5" stroke-linecap="round"/>
+</svg></div>
       <div>
         <h2 style="font-size:1.6rem;color:var(--ink);">Medical Training</h2>
         <p style="color:var(--ink-soft);max-width:60ch;margin-top:10px;line-height:1.65;">Structured training for hospital and clinic teams — delivered on-site or in cohorts, built around the clinical skills and protocols your staff actually need.</p>
@@ -79,6 +106,7 @@ include 'inhealth-header.php';
           <div class="letter-block" style="padding:18px 20px;"><div style="font-size:0.95rem;color:var(--ink);">Quality-of-care certification</div></div>
           <div class="letter-block" style="padding:18px 20px;"><div style="font-size:0.95rem;color:var(--ink);">On-site &amp; cohort delivery</div></div>
         </div>
+        <a href="inhealth-service-training.php" class="go" style="display:inline-block;margin-top:20px;">Full details →</a>
       </div>
     </div>
   </div>
@@ -91,8 +119,11 @@ include 'inhealth-header.php';
       <h2>Looking for our foundation instead?</h2>
       <p>The Cerviva Ghana Foundation handles our cervical cancer awareness and screening work — a separate arm from our consultancy services above.</p>
     </div>
-    <a class="btn" href="https://claude.ai/artifact/HA8sCGHFd6ZnkuJucY54cm" target="_blank" rel="noopener">Visit the Foundation</a>
+    <a class="btn" href="cerviva-homepage.php" target="_blank" rel="noopener">Visit the Foundation</a>
   </div>
 </section>
+</main>
 
-<?php include 'inhealth-footer.php'; ?>
+<?php
+include 'inhealth-footer.php';
+?>
