@@ -36,5 +36,57 @@
       <a href="inhealth-contact.php"<?= (isset($current_page) && $current_page === 'contact') ? ' style="color:var(--green-deep);border-bottom:1px solid var(--green-deep);"' : '' ?>>Contact</a>
     </nav>
     <a class="btn" href="inhealth-contact.php">Request a consultation</a>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile Navigation Drawer -->
+<div class="mobile-nav" aria-hidden="true" id="mobileNav">
+  <div class="mobile-nav-inner">
+    <button class="mobile-nav-close" aria-label="Close navigation" id="mobileNavClose">&times;</button>
+    <div class="mobile-nav-links">
+      <a href="inhealth-homepage.php" class="<?= ($current_page == 'home') ? 'active' : '' ?>">Home</a>
+      <a href="inhealth-about.php" class="<?= ($current_page == 'about') ? 'active' : '' ?>">About Us</a>
+      <a href="inhealth-services.php" class="<?= ($current_page == 'services') ? 'active' : '' ?>">Services</a>
+      <a href="inhealth-contact.php" class="<?= ($current_page == 'contact') ? 'active' : '' ?>">Contact</a>
+    </div>
+    <div class="mobile-nav-cta">
+      <a class="btn" href="inhealth-contact.php">Request a consultation</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleBtn = document.querySelector('.menu-toggle');
+    const closeBtn = document.getElementById('mobileNavClose');
+    const mobileNav = document.getElementById('mobileNav');
+
+    function openMenu() {
+      mobileNav.classList.add('open');
+      mobileNav.setAttribute('aria-hidden', 'false');
+      toggleBtn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      mobileNav.classList.remove('open');
+      mobileNav.setAttribute('aria-hidden', 'true');
+      toggleBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    if(toggleBtn && closeBtn && mobileNav) {
+      toggleBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+      
+      mobileNav.addEventListener('click', function(e) {
+        if(e.target === mobileNav) {
+          closeMenu();
+        }
+      });
+    }
+  });
+</script>
