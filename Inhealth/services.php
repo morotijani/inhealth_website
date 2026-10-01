@@ -213,7 +213,8 @@ include 'header.php';
                     arm from
                     our consultancy services above.</p>
             </div>
-            <a class="btn" href="cerviva-index" target="_blank" rel="noopener">Visit the Foundation</a>
+            <a class="btn" href="https://cervivaghanafoundation.inhealthmedicalsolutions.com" target="_blank"
+                rel="noopener">Visit the Foundation</a>
         </div>
     </section>
 </main>
