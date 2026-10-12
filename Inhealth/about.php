@@ -115,13 +115,16 @@ include 'header.php';
                 <div style="background:#fff;padding:30px 26px;">
                     <div
                         style="width:56px;height:56px;border-radius:50%;background:var(--green-pale);border:1px solid var(--green);margin-bottom:16px;">
+                        <img src="media/team-1.jpeg" alt="Dr. Caryn Agyeman Prempeh"
+                            style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
                     </div>
-                    <h3 style="font-size:1.05rem;color:var(--ink);margin-bottom:4px;">Name Surname</h3>
-                    <p style="margin:0;color:var(--ink-soft);font-size:0.9rem;">Title / role</p>
+                    <h3 style="font-size:1.05rem;color:var(--ink);margin-bottom:4px;">Dr. Caryn Agyeman Prempeh</h3>
+                    <p style="margin:0;color:var(--ink-soft);font-size:0.9rem;">Founder</p>
                 </div>
                 <div style="background:#fff;padding:30px 26px;">
                     <div
                         style="width:56px;height:56px;border-radius:50%;background:var(--green-pale);border:1px solid var(--green);margin-bottom:16px;">
+
                     </div>
                     <h3 style="font-size:1.05rem;color:var(--ink);margin-bottom:4px;">Name Surname</h3>
                     <p style="margin:0;color:var(--ink-soft);font-size:0.9rem;">Title / role</p>
